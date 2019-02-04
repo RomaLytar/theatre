@@ -1,0 +1,144 @@
+//global
+  @import "../../global/scss/mixins/mediaquery";
+  @import "../../global/scss/variables";
+  @import "../../global/scss/mixins/title";
+  @import "../../global/scss/mixins/border";
+  @import "../../global/scss/mixins/btn";
+  @import "../../global/_blocks/form/form";
+//_________
+
+
+@import "../_blocks/header/header";
+@import "../_blocks/footer/footer";
+@import "../_blocks/copyright/copyright";
+@import "../_blocks/menu/menu";
+@import "../_blocks/search/search";
+@import "../_blocks/search-main/search-main";
+@import "../_blocks/social/social";
+@import "../_blocks/social-share/social-share";
+@import "../_blocks/authorization/authorization";
+@import "../_blocks/lang/lang";
+@import "../_blocks/404/404";
+@import "../_blocks/filter/filter";
+@import "../_blocks/calendar-btn/calendar-btn";
+
+@import "../_blocks/articles/articles";
+@import "../_blocks/articles/article/article";
+@import "../_blocks/articles/article-horizontal/article-horizontal";
+@import "../_blocks/articles/article-tour/article-tour";
+
+@import "../_blocks/special-projects/special-projects.scss";
+@import "../_blocks/promo-low/promo-low.scss";
+@import "../_blocks/media/media-item/media-item.scss";
+@import "../_blocks/media/media.scss";
+
+@import "../_blocks/description-text/description-text.scss";
+@import "../_blocks/description-text-title/description-text-title.scss";
+@import "../_blocks/description-links/description-links.scss";
+@import "../_blocks/description-cards/description-cards.scss";
+@import "../_blocks/partners/partners.scss";
+@import "../_blocks/partners/partners-item/partners-item.scss";
+@import "../_blocks/partners/partners-item-low/partners-item-low.scss";
+@import "../_blocks/subscribe/subscribe.scss";
+@import "../_blocks/subscribe/subscribe-youtube.scss";
+@import "../_blocks/text-block/text-block.scss";
+@import "../_blocks/form-contact/form-contact.scss";
+@import "../_blocks/form-vacancy/form-vacancy.scss";
+@import "../_blocks/breadcrumbs/breadcrumbs.scss";
+@import "../_blocks/promo-info/promo-info.scss";
+@import "../_blocks/promo-top/promo-top.scss";
+@import "../_blocks/promo-calendar/promo-calendar.scss";
+@import "../_blocks/info/info.scss";
+@import "../_blocks/contact-us/contact-us.scss";
+@import "../_blocks/pagination/pagination.scss";
+@import "../_blocks/photo-album/photo-album.scss";
+@import "../_blocks/releases-media/releases-media.scss";
+@import "../_blocks/page-title/page-title.scss";
+@import "../_blocks/video-promo/video-promo.scss";
+@import "../_blocks/tabs/tabs";
+@import "../_blocks/ebooks-item/ebooks-item";
+@import "../_blocks/inform-orders/inform-orders";
+
+@import "../_blocks/call-us/call-us";
+@import "../_blocks/form-support/form-support";
+@import "../_blocks/info-block/info-block";
+@import "../_blocks/visit/visit";
+@import "../_blocks/map/map";
+@import "../_blocks/gallery/gallery";
+@import "../_blocks/download-link/download-link";
+@import "../_blocks/service-section/service-section";
+@import "../_blocks/btn-toggle/btn-toggle";
+@import "../_blocks/burger/burger";
+
+
+// Index
+  @import "../_blocks/promo-slider/promo-slider";
+  @import "../_blocks/recommend/recommend";
+  @import "../_blocks/performances/performances";
+//__________
+
+// Calendar
+@import "../_blocks/calendar/calendar";
+@import "../_blocks/calendar/calendar-type/calendar-type";
+@import "../_blocks/calendar/calendar-daterange/calendar-daterange";
+@import "../_blocks/calendar/calendar-event/calendar-list";
+@import "../_blocks/calendar/calendar-event/calendar-table";
+@import "../_blocks/calendar/calendar-event/calendar-table-event";
+@import "../_blocks/calendar/calendar-event/calendar-list-event";
+@import "../_blocks/calendar/calendar-month-toggle/calendar-month-toggle";
+//__________
+
+//Photo
+@import "../_blocks/albums/albums";
+@import "../_blocks/albums/album/album";
+
+//__________
+
+//Video
+@import "../_blocks/videos/videos";
+@import "../_blocks/videos/video/video";
+
+//__________
+
+// Event
+@import "../_blocks/event/event-artists/event-artists.scss";
+@import "../_blocks/event/event-artist/event-artist.scss";
+@import "../_blocks/event/event-card/event-card.scss";
+//__________
+
+// Collective
+@import "../_blocks/team/team";
+@import "../_blocks/team/team-card/team-card";
+//__________
+
+
+// Artist
+@import "../_blocks/artist/artist";
+//__________
+
+
+// Popup
+@import "../_blocks/popup/popup";
+//__________
+
+
+// Team
+@import "../_blocks/team/team-members/team-members";
+@import "../_blocks/team/team-members-vertical/team-members-vertical";
+@import "../_blocks/team/team-list/team-list";
+@import "../_blocks/team/team-card-vertical/team-card-vertical";
+
+@import "../_blocks/team/team";
+@import "../_blocks/team/team-card/team-card";
+@import "../_blocks/btn-toggle/btn-toggle";
+//__________
+
+
+// Popup
+@import "../_blocks/faq/faq";
+//__________
+
+
+// Visit
+@import "../_blocks/visit/visit";
+@import "../_blocks/visit/visit-where/visit-where";

@@ -1,0 +1,54 @@
+//global
+  @import "../../global/scss/global/normalize";
+  @import "../../global/scss/variables";
+  @import "../../global/scss/mixins/mediaquery";
+  @import "../../global/scss/mixins/visually-hidden";
+  @import "../../global/scss/mixins/wrap";
+  @import "../../global/scss/mixins/btn";
+  @import "../../global/_blocks/fonts/fonts";
+  @import "../../global/_blocks/scrollbar/scrollbar";
+  @import "global/global-scaffolding";
+//_________
+
+@import "_blocks/wrap";
+@import "_blocks/btn";
+
+@import "../components/Common/Cross/Cross";
+@import "../components/Common/Back/Back";
+@import "../components/Common/Filter/Filter";
+@import "../components/Common/PriceFilter/PriceFilterRange";
+@import "../components/Common/PriceFilter/PriceFilter";
+@import "../components/Common/DateChange/DateChange";
+@import "../components/Common/SectorChooseFilter/SectorChooseFilter";
+@import "../components/Common/Checkbox/Checkbox";
+@import "../components/Common/Popup/Popup";
+@import "../components/Common/SchemeSector/SchemeSector";
+@import "../components/Common/SchemeSectorFilter/SchemeSectorFilter";
+@import "../components/Common/Legend/Legend";
+@import "../components/Common/SchemeControls/SchemeControls";
+@import "../components/Common/SchemeTickets/SchemeTickets";
+@import "../components/Common/SchemeSeatHint/SchemeSeatHint";
+@import "../components/Common/TicketChooseCounter/TicketChooseCounter";
+@import "../components/Common/AvailablePopup/AvailablePopup";
+@import "../components/Common/LineToIndex/LineToIndex";
+@import "../components/Common/Form/Form";
+@import "../components/Common/Conditions/Conditions";
+@import "../components/Common/Country/Country";
+@import "../components/Common/Preloader/Preloader";
+@import "../components/Common/TicketBottom/TicketBottom";
+
+
+// Cart
+@import "../components/Cart/Cart";
+@import "../components/Cart/CartPerfomance";
+@import "../components/Common/CartProgress/CartProgress";
+@import "../components/Common/CartAside/CartAside";
+
+// Page component
+@import "../components/Perfomance/Perfomance";
+
+// Authorization
+@import "../components/Authorization/AuthTrigger/AuthTrigger";
+
+// Payment
+@import "../components/Payment/Payment";

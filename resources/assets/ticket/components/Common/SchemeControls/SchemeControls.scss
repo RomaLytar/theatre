@@ -1,0 +1,33 @@
+.scheme-controls {
+  width: 34px;
+  border: 1px solid #cccccc;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  position: absolute;
+  z-index: 50;
+  top: 0;
+  left: 0;
+}
+
+.scheme-controls__btn {
+  border: 0;
+  background: none;
+  padding: 8px;
+  transition: 0.3s;
+
+  svg {
+    display: block;
+    transition: 0.3s;
+  }
+
+  &:hover,
+  &:focus {
+    outline: none;
+    background: $gold;
+
+    svg {
+      fill: #ffffff;
+    }
+  }
+}

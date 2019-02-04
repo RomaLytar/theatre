@@ -1,0 +1,39 @@
+.line-to-index {
+  background: #f4ede9;
+  margin: 0 0 30px;
+}
+
+.line-to-index__link {
+  padding: 6px 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+@media #{$s} {
+  .line-to-index {
+    position: fixed;
+    z-index: 100;
+    background: #281d21;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0 10px;
+
+    .cart-global-insert & {
+      background: none;
+      width: auto;
+      left: 0;
+      z-index: 5005;
+    }
+  }
+
+  .line-to-index__link {
+    padding: 0;
+    height: 44px;
+    justify-content: flex-start;
+  }
+}

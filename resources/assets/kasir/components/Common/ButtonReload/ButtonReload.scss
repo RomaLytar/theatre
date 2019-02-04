@@ -1,0 +1,25 @@
+.button-reload {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  display: block;
+
+  svg {
+    display: block;
+  }
+
+  &.reload {
+    animation: btn-reload 0.3s infinite linear forwards;
+  }
+}
+
+@keyframes btn-reload {
+  from {
+    transform: rotate(0);
+  }
+
+  from {
+    transform: rotate(-180deg);
+  }
+}

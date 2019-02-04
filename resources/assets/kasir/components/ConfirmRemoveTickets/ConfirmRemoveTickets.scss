@@ -1,0 +1,37 @@
+.confirm-remove-tickets {
+
+}
+
+.confirm-remove-tickets__title {
+  margin: 1em 0;
+  font-size: 1.5em;
+}
+
+.confirm-remove-tickets__performance {
+  font-size: 1.3em;
+  font-weight: 700;
+  margin: -10px 0 5px;
+}
+
+.confirm-remove-tickets__date {
+  margin: 0 0 5px;
+}
+
+.confirm-remove-tickets__seat {
+  margin: 0 0 10px;
+  text-align: left;
+
+  p {
+    display: flex;
+  }
+}
+
+.confirm-remove-tickets__seat-name {
+  width: 70px;
+}
+
+.confirm-remove-tickets__seat-value {
+  flex-grow: 1;
+  font-size: 1.1em;
+  font-weight: 700;
+}

@@ -1,0 +1,70 @@
+.pagination {
+  margin: 10px 0 50px;
+}
+
+.pagination__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination__item {
+  font-size: 12px;
+  line-height: 1.33;
+  margin: 0 3px;
+  color: $col-light-grey;
+
+  &:first-of-type {
+    margin-right: 10px;
+    font-size: 0;
+    transform: scale(-1);
+  }
+
+  &:last-of-type {
+    margin-left: 10px;
+    font-size: 0;
+  }
+
+  &:hover {
+    color: $col;
+
+    svg {
+      fill: $col;
+    }
+  }
+
+  &[data-active] {
+    color: $gold;
+
+    &:hover {
+      .pagination__link {
+        cursor: default;
+      }
+    }
+  }
+
+  &[data-disabled] {
+    &:hover {
+      .pagination__link {
+        cursor: default;
+      }
+    }
+  }
+}
+
+.pagination__link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+@media #{$s} {
+  .pagination__item {
+    font-size: 14px;
+    margin: 0 6px;
+  }
+}

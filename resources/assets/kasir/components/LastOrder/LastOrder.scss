@@ -1,0 +1,112 @@
+.last-order__title {
+  font-size: 1.5em;
+  margin: 0 0 0.5em;
+  text-align: center;
+}
+
+.last-order__order {
+  color: red;
+  font-size: 2em;
+  margin: 0 0 0.3em;
+  text-align: center;
+
+  small {
+    font-size: 70%;
+  }
+}
+
+.last-order__perfomance {
+  text-align: center;
+
+  p {
+    margin: 0 0 5px;
+  }
+}
+
+.last-order__perfomance-title {
+  font-size: 1.2em;
+  margin: 0 0 5px;
+}
+
+.last-order__perfomance-hall {
+  font-weight: 700;
+}
+
+.last-order__banking {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.last-order__text {
+  font-weight: 400;
+  width: 100px;
+}
+
+.last-order__cost {
+  width: 70px;
+  font-size: 1.3em;
+}
+
+.last-order__table {
+  width: 100%;
+  font-size: 0.9em;
+  margin: 15px 0 10px;
+  text-align: center;
+  table-layout: fixed;
+
+  th {
+    border: 1px solid $gray;
+    padding: 3px;
+    font-weight: 700;
+  }
+
+  td {
+    vertical-align: middle;
+    border: 1px solid $gray;
+    padding: 3px;
+  }
+}
+
+.last-order__table-section {
+  text-align: left;
+}
+
+.last-order__table-row {
+  width: 40px;
+}
+
+.last-order__table-seat {
+  width: 55px;
+}
+
+.last-order__table-price {
+  width: 50px;
+}
+
+.last-order__table-total-text {
+  text-align: left;
+  font-weight: 700;
+}
+
+.last-order__table-total {
+  text-align: right;
+  font-weight: 700;
+
+  .last-order__table & {
+    padding-right: 12px;
+  }
+}
+
+.last-order__user {
+  margin: 0 0 10px;
+  font-size: 0.9em;
+  text-align: center;
+  font-weight: 700;
+  color: #44b944;
+
+  p {
+    margin: 0;
+  }
+}

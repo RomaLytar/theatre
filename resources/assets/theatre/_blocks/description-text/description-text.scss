@@ -1,0 +1,39 @@
+.description-text {
+  max-width: 685px;
+  margin: 20px auto 40px;
+  font-size: 18px;
+  line-height: 1.44;
+
+  &--small {
+    margin: 20px auto 30px;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: $gold;
+  }
+}
+
+.description-text__wrap {
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+@media #{$s} {
+  .description-text {
+    margin: 20px auto 50px;
+
+    &:last-child {
+
+    }
+  }
+
+  .description-text {
+    font-size: 16px;
+    line-height: 1.56;
+  }
+}

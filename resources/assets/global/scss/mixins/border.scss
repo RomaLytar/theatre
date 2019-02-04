@@ -1,0 +1,5 @@
+@mixin border($border-width: 1px,
+             $border-type: solid,
+             $border-color: $gold) {
+  border: $border-width $border-type $border-color;
+}

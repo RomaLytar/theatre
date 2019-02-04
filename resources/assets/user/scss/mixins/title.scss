@@ -1,0 +1,29 @@
+@mixin title($margin: 0 0 5px,
+             $padding: 0,
+             $text-align: left,
+             $font-size: 18px,
+             $font-weight: 400,
+             $line-height: 1.33,
+             $font-family: $font-main,
+             $color: $col,
+             $text-transform: uppercase) {
+  font: $font-weight $font-size $font-family;
+  line-height: $line-height;
+  margin: $margin;
+  text-align: $text-align;
+  padding: $padding;
+  color: $color;
+  text-transform: $text-transform;
+}
+
+@mixin title-main {
+  @include title($margin: 0 0 0.88em, $font-size: 34px, $color: $gold, $line-height: 1, $text-align: center);
+  letter-spacing: 0.025em;
+
+  @media #{$s} {
+    font-size: 24px;
+    line-height: 1.42;
+    margin: 0 0 10px;
+  }
+}
+

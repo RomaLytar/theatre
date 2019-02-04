@@ -1,0 +1,147 @@
+.popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100000;
+
+  display: block;
+  overflow: hidden;
+
+  opacity: 0;
+  background-color: #ffffff;
+
+  transition: opacity .3s, transform .05s .3s;
+  transform: translateX(-100%);
+
+  &--active {
+    opacity: 1;
+
+    transition: transform .05s, opacity .3s .05s;
+    transform: translateX(0);
+  }
+}
+
+.popup__inner {
+  height: 100%;
+  overflow: auto;
+  padding: 5vw 3.7vw;
+  display: flex;
+
+  opacity: 0;
+
+  transition: 0.3s linear;
+  transform: scale(10);
+
+  .popup--active & {
+    opacity: 1;
+
+    transform: scale(1);
+  }
+
+  &[data-status="true"] {
+    background: #7ed980;
+  }
+
+  &[data-status="false"] {
+    background: #e23833;
+  }
+}
+
+.popup__wrap {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.popup__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 46px;
+  height: 46px;
+  line-height: 0;
+  border: 0;
+  background: none;
+  font-size: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  svg {
+    transition: 0.3s;
+  }
+
+  &:hover,
+  &:focus {
+    svg {
+      fill: $gold;
+    }
+  }
+
+  &:active {
+    svg {
+      fill: $col;
+    }
+  }
+}
+
+.popup__close-feedback-ok {
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  max-width: 160px;
+  height: 40px;
+  background: $col;
+  color: $white;
+  text-transform: uppercase;
+  margin: 0 auto;
+  border: 2px solid $col;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 700;
+
+  &:hover {
+    background: darken($col, 5%);
+  }
+
+  &:active {
+    background: lighten($col, 5%);
+  }
+}
+
+.popup__concierge {
+  margin-bottom: 25px;
+  font-size: 18px;
+  line-height: 1.2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup__concierge-status {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 15px;
+}
+
+.popup__concierge-title {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 15px;
+}
+
+.popup__concierge-ticket {
+  margin: 0 0 15px;
+
+  &--time {
+    text-align: center;
+  }
+}

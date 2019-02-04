@@ -1,0 +1,137 @@
+.select-country {
+  position: relative;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.select-country__btn {
+  color: $col;
+  background: none;
+  border: 1px solid $gold;
+  padding: 2px 15px 2px 6px;
+  border-radius: 0;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  outline: none;
+
+  &:focus,
+  &:hover {
+    border-color: $col;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    margin-top: -3px;
+    width: 0;
+    height: 0;
+    border-top: 6px solid currentColor;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    pointer-events: none;
+    transition: transform 0.3s;
+
+    .is-active & {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.select-country__placeholder {
+
+}
+
+.select-country__dropdown {
+  margin: 2px 0;
+  position: absolute;
+  right: 0;
+  left: 0;
+  background-color: #ffffff;
+  z-index: 50;
+}
+
+.select-country__input {
+  display: block;
+  padding: 2px 4px;
+  width: 100%;
+  background: none;
+  color: $col;
+  border: 1px solid $col-light;
+  border-radius: 0;
+}
+
+.select-country__list {
+  margin: -1px 0 0;
+  list-style: none;
+  padding: 0;
+  position: relative;
+  overflow-y: auto;
+  max-height: 100px;
+  border: 1px solid $col-light;
+  font-size: 12px;
+  line-height: 1.33;
+}
+
+.select-country__item {
+  padding: 0 3px;
+  cursor: pointer;
+  user-select: none;
+
+  &:hover:not(.is-active) {
+    background-color: #e8e8e8;
+  }
+
+  &.is-active {
+    background-color: $col;
+    color: #ffffff;
+  }
+}
+
+.select-country__empty {
+  font-size: 12px;
+  line-height: 1.33;
+  padding: 0 3px;
+  color: $col-light;
+  border: 1px solid $col-light;
+}
+
+@media #{$s} {
+  .select-country {
+    line-height: 22px;
+    margin-top: 10px;
+  }
+
+  .select-country__btn {
+    padding: 5px 30px 5px 10px;
+
+    &::after {
+      right: 10px;
+      margin-top: -6px;
+      border-top: 12px solid currentColor;
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+    }
+  }
+
+  .select-country__input {
+    padding: 5px 10px;
+    line-height: inherit;
+  }
+
+  .select-country__list {
+    max-height: 104px;
+    line-height: 1.67;
+  }
+
+  .select-country__item {
+    padding: 7px 10px;
+  }
+
+  .select-country__empty {
+    line-height: 1.67;
+    padding: 7px 10px;
+  }
+}

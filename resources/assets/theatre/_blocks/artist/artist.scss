@@ -1,0 +1,50 @@
+.artist {
+  margin: 50px 0 50px;
+}
+
+.artist__info {
+  margin: 40px 0;
+}
+
+.artist__info-title {
+  @include title($font-weight: 400, $text-align: left, $margin: 0 0 20px);
+}
+
+.artist__info-list {
+  padding: 0;
+  margin: 0 0 30px 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.44;
+
+  &:last-child {
+    margin: 0;
+  }
+}
+
+
+@media #{$s} {
+  .artist__info {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+
+  .artist__info-title {
+    @include  title($font-family: $font-main, $font-weight: 700, $font-size: 16px, $line-height: 1.56, $text-align: left, $text-transform: initial, $margin: 0 0 12px);
+  }
+
+  .artist__info-list {
+    font-size: 16px;
+    line-height: 1.56;
+
+    &:last-child {
+      margin-bottom: 30px;
+    }
+
+    &--mob-nm:last-child{
+      margin-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+//global
+  @import "../../global/scss/global/normalize";
+  @import "../../global/scss/mixins/mediaquery";
+  @import "../../global/scss/mixins/visually-hidden";
+  @import "global/global-scaffolding";
+//_________
+
+@import "../components/common/CrossButton";
+
+
+@import "../components/TicketsList/TicketsList";
+
+@import "../components/ConstructorAside/ConstructorAside";
+@import "../components/ConstructorAside/ConstructorFields";
+@import "../components/ConstructorAside/ConstructorField";
+@import "../components/ConstructorResult/ConstructorCanvas";
+@import "../components/ConstructorResult/ConstructorResult";
+@import "../components/ConstructorResult/ConstructorCanvasItem";
+
+@import "../../kasir/components/Common/Preloader/Preloader";
+
+@import "global/print";

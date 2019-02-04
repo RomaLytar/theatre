@@ -1,0 +1,10 @@
+.videos {
+  margin-top: 50px;
+}
+
+
+@media #{$s} {
+  .videos {
+    margin: 40px 0 50px;
+  }
+}

@@ -1,0 +1,84 @@
+.date-change {
+  margin: 20px 0;
+}
+
+.date-change__title {
+  font-weight: 400;
+  margin: 0;
+  font-size: 1em;
+}
+
+.date-change__active-datetime {
+  margin: 0 0 30px;
+}
+
+.date-change__popup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.date-change__popup-title {
+  width: 100%;
+  color: $gold;
+  text-transform: uppercase;
+  font-size: 100%;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 0 22px;
+}
+
+.date-change__popup-list {
+  margin: 0 0 40px;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+
+  li {
+    margin: 0 0 18px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.date-change__popup-item {
+  padding: 0 0 0 45px;
+  position: relative;
+  cursor: pointer;
+  display: block;
+}
+
+.date-change__popup-item-text {
+  display: block;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -7px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid $col-light-grey;
+    transition: 0.3s;
+
+    input:checked ~ & {
+      border-color: $gold;
+      background: $gold;
+    }
+  }
+}
+
+@media #{$s} {
+  .date-change {
+    margin: 10px 0;
+  }
+
+  .date-change__active-datetime {
+    margin: 0 0 10px;
+  }
+}

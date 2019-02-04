@@ -1,0 +1,20 @@
+.hall-seats {
+  text-align: center;
+  font-size: 0.9em;
+
+  p {
+    margin: 0;
+  }
+
+  span {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 700;
+  }
+
+  &:not(:last-child) {
+    padding: 0 0 10px;
+    border-bottom: 1px solid $gray;
+    margin: 0 0 10px;
+  }
+}

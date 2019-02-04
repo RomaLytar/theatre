@@ -1,0 +1,38 @@
+.promo-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 24px;
+}
+
+.promo-top__calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.promo-top__name {
+  font-size: 24px;
+  line-height: 1.42;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  color: $white;
+}
+
+
+@media #{$t} {
+  .promo-top {
+    padding: 17px 0 18px;
+  }
+  .promo-top__calendar {
+    display: none;
+  }
+
+  .promo-top__name {
+    font-size: 12px;
+    line-height: 1.33;
+  }
+}

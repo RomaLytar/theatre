@@ -1,0 +1,19 @@
+.calendar-daterange {
+  max-width: 300px;
+  margin: 15px auto 30px;
+  text-align: center;
+}
+
+.calendar-daterange__icon {
+  margin-right: 14px;
+}
+
+.calendar-daterange__dates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 20px;
+  font-size: 14px;
+  line-height: 1.29;
+  text-transform: uppercase;
+}

@@ -1,0 +1,214 @@
+.form {
+
+}
+
+.form__fields {
+  margin-bottom: 25px;
+
+  &--account {
+    margin-bottom: 0;
+  }
+}
+
+.form__field {
+  display: flex;
+  margin-bottom: 7px;
+}
+
+.form__field-left {
+  width: 310px;
+
+  &--disabled {
+    width: 230px;
+  }
+}
+
+.form__label {
+  display: block;
+  padding-top: 16px;
+  position: relative;
+  font-size: 14px;
+  line-height: 1.43;
+  color: $col;
+}
+
+.form__label-text {
+  position: absolute;
+  top: 17px;
+  left: 0;
+  transition: 0.3s;
+
+  .form__input--value ~ &,
+  .form__input:focus ~ &,
+  &[data-active] {
+    font-size: 12px;
+    line-height: 1.33;
+    top: 0;
+  }
+}
+
+.form__input {
+  border: 0;
+  padding: 0;
+  border-bottom: 1px solid $gold;
+  background: none;
+  height: 21px;
+  line-height: 20px;
+  width: 100%;
+  transition: 0.3s;
+
+  &[disabled],
+  .form__field-left--disabled & {
+    border-color: $col-light;
+  }
+
+  &:focus {
+    &:not([disabled]) {
+      outline: none;
+      border-color: $col;
+    }
+  }
+
+  &--error {
+    border-color: #cc0000;
+  }
+}
+
+.form-field__password-line {
+  height: 4px;
+  width: 0;
+  transition: 0.3s;
+}
+
+.form__field-error {
+  font-size: 12px;
+  line-height: 1.33;
+  color: #cc0000;
+  margin-bottom: 10px;
+
+  p {
+    margin: 0;
+  }
+}
+
+.form__field-link {
+  margin: 2px 0;
+  font-size: 12px;
+  line-height: 1.33;
+  color: inherit;
+
+  button,
+  a {
+    border: 0;
+    padding: 0;
+    background: none;
+    color: inherit;
+    text-decoration: underline;
+  }
+}
+
+.form__field-right {
+  flex-shrink: 0;
+  padding: 0 0 0 30px;
+  position: relative;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+}
+
+.form-field__eye {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -10px;
+  border: 0;
+  background: none;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+
+  svg {
+    display: block;
+    fill: #666666;
+
+    rect {
+      display: none;
+    }
+  }
+
+  &:hover,
+  &:focus {
+    svg {
+      fill: $gold;
+    }
+  }
+
+  &:active {
+    svg {
+      fill: $col;
+    }
+  }
+
+  &--cross {
+    svg {
+      rect {
+        display: block;
+      }
+    }
+  }
+}
+
+.form-field__required {
+  font-size: 12px;
+  line-height: 1.33;
+}
+
+@media #{$s} {
+  .form__fields {
+    margin-bottom: 40px;
+
+    &--account {
+      margin-bottom: 0;
+    }
+  }
+
+  .form__field {
+    max-width: 310px;
+    margin: 0 auto 10px;
+  }
+
+  .form__field-left {
+    width: calc(100% - 30px);
+    max-width: 270px;
+
+    &--disabled {
+      width: 100%;
+      max-width: 100%;
+      text-align: left;
+    }
+  }
+
+  .form__label-text {
+    top: 23px;
+  }
+
+  .form__input {
+    height: 36px;
+    line-height: 22px;
+    padding: 6px 0;
+  }
+
+  .form__field-right {
+    padding: 0;
+  }
+
+  .form-field__eye {
+    position: static;
+    margin-top: 15px;
+  }
+
+  .form-field__required {
+    @include visually-hidden;
+  }
+}

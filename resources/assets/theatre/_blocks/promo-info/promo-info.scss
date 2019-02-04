@@ -1,0 +1,83 @@
+.promo-info {
+  position: relative;
+  color: $white;
+}
+
+.promo-info__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.29;
+}
+
+.promo-info__author {
+  font-size: 18px;
+  line-height: 1.33;
+  margin: 0 0 5px;
+}
+
+.promo-info__name {
+  @include title-34;
+  text-transform: none;
+  text-align: left;
+  font-weight: 400;
+}
+
+.promo-info__type {
+  @include title($color: $white, $text-align: left, $margin: 0 0 5px, $font-weight: 400);
+}
+
+.promo-info__premiere {
+  margin: 0;
+}
+
+.promo-info__descr {
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  span {
+    padding: 0 14px 0 0;
+  }
+}
+
+.promo-info__amount {
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.promo-info__amount-date {
+  margin: 0;
+}
+
+.promo-info__amount-number {
+  margin: 0 0 5px;
+}
+
+.promo-info__img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  img {
+    width: 100%;
+    display: block;
+
+    .object-fit & {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+@media #{$t} {
+  .promo-info {
+    // padding: 60px 0 0;
+  }
+}

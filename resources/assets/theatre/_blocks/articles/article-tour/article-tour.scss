@@ -1,0 +1,169 @@
+.article-tour {
+  @include border;
+  padding: 3px 5px 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+
+  .btn-more-link,
+  .btn-buy {
+    margin-top: auto;
+  }
+
+  // &--maecenas {
+
+  //   .btn-more {
+  //     margin-top: 12px;
+  //   }
+
+  //   .btn-more-link {
+  //     margin-right: auto;
+  //     text-decoration: none;
+  //   }
+
+  //   .article-tour__descr {
+  //     text-align: left;
+  //   }
+  // }
+}
+
+.article-tour__img {
+  align-self: stretch;
+  margin: 0 -2px 15px;
+
+  img {
+    width: 100%;
+    display: block;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+}
+
+.article-tour__city { /*Не проверял*/
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.29;
+  margin: 0 0 5px 0;
+  text-transform: uppercase;
+  font-family: $font-second;
+}
+
+.article-tour__place {
+  margin: 0 0 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-tour__hall { /*Не проверял*/
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.article-tour__tour { /*Не проверял*/
+  margin: 0 0 1em;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.article-tour__tour-city { /*Не проверял*/
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0;
+}
+
+.article-tour__tour-place { /*Не проверял*/
+  margin: 0;
+  font-style: italic;
+}
+
+.article-tour__type-place {
+  margin: 0 0 15px;
+  color: $gold;
+}
+
+.article-tour__container {
+  // margin-bottom: auto;
+  padding: 0 5px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-tour__title {
+  @include title;
+  margin-bottom: 3px;
+
+  &--abonement {
+    text-align: left;
+    margin-bottom: 6px;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+}
+
+.article-tour__datetime {
+  display: block;
+  // margin-bottom: 18px;
+
+ & + span {
+
+    &::before {
+      content: "/";
+      margin: 0 4px;
+    }
+  }
+}
+
+
+.article-tour__descr {
+  margin: 0 0 18px;
+  font-size: 14px;
+  line-height: 1.57;
+  text-align: left;
+  color: $col-light;
+
+   &--abonement {
+    margin-bottom: 40px;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.article-tour__price {
+  align-items: flex-start;
+  font-size: 18px;
+  line-height: 1.44;
+  margin-bottom: 5px;
+}
+
+@media #{$s} {
+  .article-tour {
+    padding: 3px 10px 20px;
+  }
+
+  .article-tour__img {
+    margin: 0 -7px 15px;
+  }
+
+  .article-tour__descr {
+    margin-bottom: 23px;
+    line-height: 1.57;
+  }
+}

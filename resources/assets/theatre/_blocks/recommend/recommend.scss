@@ -1,0 +1,21 @@
+.recommend {
+  margin: 40px 0;
+}
+
+.recommend__title {
+  @include title-34;
+  margin-bottom: 28px;
+  color: $col;
+}
+
+@media #{$s} {
+  .recommend {
+    margin-bottom: 50px;
+  }
+
+  .recommend__title {
+    @include title-24;
+    margin-bottom: 40px;
+    color: $col;
+  }
+}

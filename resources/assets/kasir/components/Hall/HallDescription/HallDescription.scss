@@ -1,0 +1,31 @@
+.hall-description {
+  text-align: center;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid $gray;
+    padding: 0 0 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.hall-description__title {
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.hall-description__date {
+  margin: 0;
+  font-size: 14px;
+}
+
+.hall-description__time {
+  margin: 0;
+  font-size: 14px;
+}
+
+.hall-description__hall {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+

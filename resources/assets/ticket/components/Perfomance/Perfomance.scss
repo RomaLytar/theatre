@@ -1,0 +1,195 @@
+.perfomance {
+
+}
+
+.perfomance__header {
+  position: relative;
+  text-align: center;
+  margin: 0 0 20px;
+  padding: 0 40px;
+}
+
+.perfomance__title {
+  font-size: 18px;
+  line-height: 1.33;
+  color: $gold;
+  margin: 0 0 5px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.perfomance__info {
+  font-size: 14px;
+  line-height: 1.43;
+  margin: 0 0 12px;
+
+  p {
+    margin: 0;
+  }
+}
+
+.perfomance__subtitle {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0 0 25px;
+  text-align: center;
+}
+
+.perfomance__header-descr {
+  max-width: 450px;
+  margin: 0 auto;
+
+  p {
+    margin: 0;
+  }
+}
+
+.perfomance__header-desktop {
+  display: block;
+}
+
+.perfomance__header-mobile {
+  display: none;
+}
+
+.perfomance__body {
+  display: flex;
+  align-items: flex-start;
+}
+
+.perfomance__filter {
+  width: 235px;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.perfomance__sector {
+  width: 235px;
+  flex-shrink: 0;
+}
+
+.perfomance__scheme {
+  width: 100%;
+  flex-grow: 1;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.perfomance__available {
+  margin: 23px 0;
+  text-align: center;
+}
+
+.perfomance__seats {
+  height: 340px;
+  margin: 0 0 10px;
+  position: relative;
+
+  embed {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.perfomance__scheme-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.perfomance__scheme-center {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.perfomance__scheme-legend,
+.perfomance__scheme-filter {
+  flex-shrink: 0;
+}
+
+.perfomance__alone-btn {
+  max-width: 234px;
+  margin: 45px auto;
+}
+
+@media #{$s} {
+  .perfomance__header {
+    margin: 0 0 12px;
+    padding: 0;
+  }
+
+  .perfomance__title {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 10px;
+  }
+
+  .perfomance__info {
+    font-size: 14px;
+    line-height: 1.57;
+    margin: 0 0 16px;
+  }
+
+  .perfomance__header-descr {
+    font-size: 14px;
+    line-height: 1.57;
+  }
+
+  .perfomance__header-desktop {
+    display: none;
+  }
+
+  .perfomance__header-mobile {
+    display: block;
+    text-transform: uppercase;
+  }
+
+  .perfomance__filter {
+    width: auto;
+  }
+
+  .perfomance__sector {
+    display: none;
+  }
+
+  .perfomance__scheme {
+    margin: 0;
+  }
+
+  .perfomance__available {
+    margin: 0 0 22px;
+  }
+
+  .perfomance__seats {
+    height: 250px;
+  }
+
+  .perfomance__scheme-info {
+    flex-wrap: wrap;
+    padding: 0 0 30px;
+    position: relative;
+  }
+
+  .perfomance__scheme-center {
+    order: -1;
+    margin: 0 0 -16px;
+  }
+
+  .perfomance__scheme-legend {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+  .perfomance__scheme-filter {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .perfomance__alone-btn {
+    margin: 20px auto 15px;
+  }
+}

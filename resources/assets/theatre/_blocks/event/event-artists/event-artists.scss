@@ -1,0 +1,22 @@
+.event-artists {
+  margin: 40px 0;
+}
+
+.event-artists__item {
+  &[data-hidden] {
+    display: none !important;
+  }
+}
+
+.event-artists__artists { /*Не проверено*/
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 0 30px;
+}
+
+.event-artists__title {
+  @include title-24;
+  margin: 0 0 30px;
+  letter-spacing: 0.05em;
+}

@@ -1,0 +1,45 @@
+.calendar-month-toggle {
+  padding: 34px 0 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 1.44;
+
+  &[data-hidden] {
+    display: none;
+  }
+}
+
+.calendar-month-toggle__name {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.calendar-month-toggle__btn {
+  padding: 5px;
+  margin: 0 20px;
+  border: none;
+  background-color: transparent;
+  font-size: 0;
+  outline: none;
+
+  svg {
+    fill: $col;
+    transition: fill 0.3s;
+  }
+
+  &:hover {
+    svg {
+      fill: $gold;
+    }
+  }
+
+  &[data-disabled="true"] {
+    display: none;
+  }
+
+  &--left {
+    transform: rotate(180deg);
+  }
+}

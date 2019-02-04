@@ -1,0 +1,195 @@
+$border: 1px solid #cccccc;
+
+.cart-perfomance {
+  font-size: 16px;
+  line-height: 1.38;
+}
+
+.cart-perfomance__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-bottom: $border;
+}
+
+.cart-perfomance__info {
+  padding: 22px 13px 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  background: #f1ece6 no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.cart-perfomance__info-right {
+  margin-top: -3px;
+}
+
+.cart-perfomance__item-name {
+  font-size: 1em;
+  font-weight: 700;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+
+.cart-perfomance__item-hall {
+  margin: 0;
+}
+
+.cart-perfomance__datetime {
+  margin: 0;
+}
+
+.cart-perfomance__date {
+  margin: 0 9px;
+}
+
+.cart-perfomance__remove {
+  text-decoration: underline;
+  font-size: 12px;
+  line-height: 1.33;
+  color: inherit;
+  padding: 0;
+  background: none;
+  border: 0;
+}
+
+.cart-perfomance__tickets {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    padding: 17px 24px 18px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: $border;
+    height: 80px;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+}
+
+.cart-perfomance__ticket-info {
+  flex-grow: 1;
+
+  p {
+    margin: 0;
+  }
+}
+
+.cart-perfomance__ticket-remove {
+  margin-left: 25px;
+}
+
+.cart-perfomance__currency {
+  min-width: 72px;
+  flex-shrink: 0;
+  margin: 0;
+
+  &::before {
+    content: "\20B4";
+  }
+}
+
+.cart-perfomance__total {
+  margin: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 65px 0 20px;
+  border-bottom: $border;
+}
+
+.cart-perfomance__total-name {
+  font-weight: 700;
+}
+
+.cart-perfomance__available-text {
+  text-align: center;
+  margin: 21px 0 30px;
+}
+
+.cart-perfomance__btn {
+  margin: 30px auto 20px;
+}
+
+@media #{$s} {
+  .cart-perfomance {
+    line-height: 1.5;
+  }
+
+  .cart-perfomance__list {
+    border: 0;
+
+    li:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+
+  .cart-perfomance__info {
+    padding: 5px 8px 14px;
+    flex-direction: column;
+  }
+
+  .cart-perfomance__info-right {
+    order: -1;
+    margin: 0;
+    text-align: right;
+  }
+
+  .cart-perfomance__item-name {
+    margin: 0 0 6px;
+  }
+
+  .cart-perfomance__remove {
+    text-decoration: none;
+    line-height: 1.67;
+  }
+
+  .cart-perfomance__tickets {
+    li {
+      padding: 24px 10px 20px 0;
+      height: 88px;
+      position: relative;
+
+      &:last-child {
+        border-bottom: $border;
+      }
+    }
+  }
+
+  .cart-perfomance__ticket-remove {
+    margin: 0;
+    position: absolute;
+    top: 12px;
+    right: 8px;
+
+    svg {
+      width: 12px;
+      height: 12px;
+    }
+  }
+
+  .cart-perfomance__currency {
+    min-width: 45px;
+  }
+
+  .cart-perfomance__total {
+    height: auto;
+    padding: 41px 10px 22px 0;
+  }
+
+  .cart-perfomance__available-text {
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 1.57;
+  }
+
+  .cart-perfomance__btn {
+    margin: 20px auto;
+  }
+}

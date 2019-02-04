@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.38;
+}
+
+body {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.visually-hidden {
+  @include visually-hidden;
+}
+
+.body-popup {
+  overflow: hidden;
+}
+
+.wrap {
+  width: calc(342px + 210mm);
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.constructor {
+  display: flex;
+}
+
+.btn-form {
+  position: relative;
+
+  form {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0;
+  }
+
+  input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

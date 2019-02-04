@@ -1,0 +1,110 @@
+$gray: #adadad;
+
+.select-country {
+  position: relative;
+  font-size: 14px;
+  line-height: 1.43;
+  width: 100%;
+  margin: 14px 0 20px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.select-country__btn {
+  color: $col;
+  background: none;
+  border: 1px solid $gray;
+  padding: 9px 50px 9px 18px;
+  border-radius: 0;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  outline: none;
+
+  &:hover,
+  &:focus {
+    &:not(.form__input--error) {
+      border-color: $gold;
+    }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    margin-top: -9px;
+    transform: rotate(-45deg);
+    width: 12px;
+    height: 12px;
+    border-left: 2px solid $col;
+    border-bottom: 2px solid $col;
+    pointer-events: none;
+    transition: transform 0.3s;
+
+    .is-active & {
+      transform: rotate(135deg);
+      margin-top: -3px;
+    }
+  }
+}
+
+.select-country__placeholder {
+
+}
+
+.select-country__dropdown {
+  margin: 2px 0;
+  position: absolute;
+  right: 0;
+  left: 0;
+  background-color: #ffffff;
+  z-index: 50;
+  font-size: 14px;
+  line-height: 1.43;
+}
+
+.select-country__input {
+  display: block;
+  padding: 4px 18px;
+  width: 100%;
+  background: none;
+  color: $col;
+  border: 1px solid $gray;
+  border-radius: 0;
+  line-height: inherit;
+}
+
+.select-country__list {
+  margin: -1px 0 0;
+  list-style: none;
+  padding: 0;
+  position: relative;
+  overflow-y: auto;
+  max-height: 80px;
+  border: 1px solid $gray;
+}
+
+.select-country__item {
+  padding: 0 3px;
+  cursor: pointer;
+  user-select: none;
+
+  &:hover:not(.is-active) {
+    background-color: #e8e8e8;
+  }
+
+  &.is-active {
+    background-color: $col;
+    color: #ffffff;
+  }
+}
+
+.select-country__empty {
+  padding: 4px 18px;
+  color: $col-light;
+  border: 1px solid $gray;
+}
+

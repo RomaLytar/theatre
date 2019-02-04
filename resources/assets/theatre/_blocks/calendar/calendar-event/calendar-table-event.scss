@@ -1,0 +1,79 @@
+.calendar-table-event {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 5px 5px;
+  background: no-repeat 50% 50%;
+  background-size: cover;
+  font-size: 12px;
+  line-height: 1.33;
+
+  &[data-sold="true"] {
+    .calendar-table-event__sold {
+      display: block;
+    }
+
+    .calendar-table-event__btn {
+      display: none;
+    }
+  }
+
+  &:hover {
+    .calendar-table-event__btn {
+      z-index: 1;
+      opacity: 1;
+    }
+  }
+
+  &:last-child {
+    margin: 0 0 25px;
+  }
+}
+
+.calendar-table-event__btn {
+  align-self: center;
+  z-index: -1;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.calendar-table-event__sold {
+  margin: 0;
+  padding: 5px;
+  text-transform: uppercase;
+  color: $red;
+  text-align: center;
+  cursor: default;
+  display: none;
+}
+
+.calendar-table-event__name {
+  @include title-12;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+
+  .hovered & {
+    color: $white;
+  }
+}
+
+.calendar-table-event__time {
+  display: block;
+  margin-bottom: 6px;
+  color: $col-light;
+
+  .hovered & {
+    color: $white;
+  }
+}
+
+.calendar-table-event__type {
+  display: block;
+  margin: 0 0 15px;
+
+  .hovered & {
+    color: $white;
+  }
+}
+
+

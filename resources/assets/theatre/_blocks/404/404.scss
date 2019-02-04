@@ -1,0 +1,30 @@
+.not-found {
+  min-height: calc(100vh - 46px);
+  background: url(/design/img/404/404-bg.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  display: flex;
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+.not-found__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.not-found__img {
+  max-width: 90%;
+  margin: 0 auto 1.89em;
+
+  img {
+    display: block;
+  }
+}
+
+.not-found__link {
+  text-transform: uppercase;
+  color: $gold;
+}

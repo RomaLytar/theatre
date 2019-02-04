@@ -1,0 +1,128 @@
+.search {
+  padding: 5px 0 0;
+  margin: 0 0 50px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.33;
+  display: none;
+
+  &[data-active] {
+    display: block;
+  }
+}
+
+.search__title {
+  @include title-24;
+  letter-spacing: 0;
+  text-transform: none;
+  margin: 0 0 10px;
+
+  small {
+    font-size: 18px;
+    line-height: 1.44;
+  }
+}
+
+.search__form {
+  display: flex;
+  max-width: 475px;
+  margin: 0 auto;
+}
+
+.search__btn-submit {
+  @include btn($background: $red, $text-transform: uppercase, $width: 90px, $padding: 10px);
+
+  flex-shrink: 0;
+}
+
+.search__form-input {
+  height: 35px;
+  border: none;
+  background-color: #f2f0ed;
+  width: 100%;
+  max-width: 380px;
+  margin: 0 5px 0 0;
+  outline: none;
+  z-index: 2;
+  padding: 9px 10px 10px;
+
+  &::-webkit-input-placeholder {
+   color: currentColor;
+   opacity: 1;
+  }
+
+  &:-ms-input-placeholder {
+   color: currentColor;
+   opacity: 1;
+  }
+
+  &::-ms-input-placeholder {
+   color: currentColor;
+   opacity: 1;
+  }
+
+  &::placeholder {
+   color: currentColor;
+   opacity: 1;
+  }
+}
+
+.search__btn-reset {
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  color: $gold;
+  margin: 40px 0 0;
+  transition: color 0.3s;
+  display: none;
+
+  &:hover {
+    color: $col-light-grey;
+  }
+
+  &[data-active] {
+    display: inline-block;
+  }
+}
+
+@media #{$s} {
+  .search {
+    padding: 0 10px;
+    margin: 0 0 30px;
+  }
+
+  .search__title {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+    min-height: 95px;
+    font-weight: 400;
+    font-family: $font-main;
+
+
+    small {
+      display: block;
+      text-transform: initial;
+      font-size: 16px;
+      line-height: 25px;
+    }
+  }
+
+  .search__btn-submit {
+    padding: 12px 10px;
+    font-size: 14px;
+  }
+
+  .search__form-input {
+    height: 45px;
+    font-size: 14px;
+    padding-left: 20px;
+    margin: 0 10px 0 0;
+  }
+
+  .search__btn-reset {
+    margin: 30px 0 0;
+  }
+}

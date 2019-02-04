@@ -1,0 +1,19 @@
+.partners {
+  margin: 40px 0 50px;
+
+  &:last-child {
+    margin-bottom: 10px;
+  }
+}
+
+.partners__container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.partners__title {
+  @include title-24;
+  margin-bottom: 20px;
+  padding: 0;
+}

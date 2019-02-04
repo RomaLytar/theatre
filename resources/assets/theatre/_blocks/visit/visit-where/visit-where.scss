@@ -1,0 +1,82 @@
+.visit-where {
+  max-width: 640px;
+}
+
+.visit-where__sect {
+  margin-bottom: 40px;
+
+  &:last-child {
+    margin-bottom: 50px;
+  }
+}
+
+.visit-where__title {
+  @include title-24;
+
+  text-align: left;
+  margin: 0 0 25px;
+}
+
+.visit-where__descr {
+  font-size: 18px;
+  line-height: 1.44;
+
+  p {
+    margin: 0 0 25px;
+  }
+
+  &--50 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: -25px;
+
+    p {
+      width: 48%;
+    }
+  }
+}
+
+.visit-where__map {
+  height: 350px;
+}
+
+@media #{$s} {
+  .visit-where__title {
+    font-size: 18px;
+    line-height: 1.67;
+    text-align: center;
+    margin: 40px 0 30px;
+  }
+
+  .visit-where__descr {
+    font-size: 16px;
+    line-height: 1.56;
+
+    p {
+      margin: 0 0 20px;
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+
+    &--50 {
+      // display: flex;
+      // flex-wrap: wrap;
+      // justify-content: space-between;
+      // margin-bottom: -25px;
+      margin-bottom: 0;
+
+      p {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+
+  .visit-where__map {
+    height: 210px;
+    margin: 0 auto;
+  }
+}

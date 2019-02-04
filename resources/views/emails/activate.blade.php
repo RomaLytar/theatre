@@ -1,0 +1,1 @@
+<h1>For full registration, please, cofirm your email, <a href="{{ $link }}">click here</a></h1>

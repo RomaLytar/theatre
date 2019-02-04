@@ -1,0 +1,14 @@
+.visit-title {
+  @include title-24;
+  margin: 40px 0 30px;
+}
+
+.visit-img {
+  max-width: 100%;
+  margin: 40px auto;
+  text-align: center;
+
+  img {
+    vertical-align: middle;
+  }
+}

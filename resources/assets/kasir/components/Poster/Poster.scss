@@ -1,0 +1,15 @@
+.poster {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px 0;
+}
+
+.poster__aside {
+  width: 200px;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.poster__data {
+  flex-grow: 1;
+}

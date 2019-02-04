@@ -1,0 +1,37 @@
+.event-card {
+  margin: 0 0 50px;
+}
+
+.event-card__about {
+  margin: 0 0 20px 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.event-card__card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.event-card__img {
+  margin: 0;
+  flex-shrink: 0;
+  padding: 3px;
+  @include border;
+
+  img {
+    display: block;
+    width: 100%;
+
+  }
+}
+
+.event-card__descr {
+  font-size: 14px;
+
+  p {
+    margin: 0 0 15px;
+  }
+}
+

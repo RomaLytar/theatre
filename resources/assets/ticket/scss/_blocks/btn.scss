@@ -1,0 +1,85 @@
+.btn {
+  @include btn($font-size: 14px, $line-height: 1.14, $padding: 9px 10px, $width: 0, $border: 1px solid $gold);
+  display: block;
+  width: 100%;
+  max-width: 205px;
+
+  &--border {
+    color: $gold;
+
+    &::after {
+      background: $gold;
+    }
+
+    &:hover {
+      &:not([disabled]) {
+        color: $white;
+      }
+    }
+  }
+
+  &--width {
+    max-width: 100%;
+  }
+
+  &--long {
+    max-width: 230px;
+  }
+
+  &--short {
+    max-width: 130px;
+  }
+
+  &--full {
+    background: $gold;
+
+    &::after {
+      background: $white;
+    }
+
+    &:hover {
+      &:not([disabled]) {
+        color: $gold;
+      }
+    }
+  }
+
+  &--red {
+    background: $red;
+    border-color: currentColor;
+    text-transform: uppercase;
+    margin: 0 auto;
+
+    &:hover {
+      &:not([disabled]) {
+        background: $red-hover;
+      }
+    }
+
+    &:active {
+      &:not([disabled]) {
+        background: $red-active;
+      }
+    }
+  }
+
+  &--lower {
+    text-transform: none;
+  }
+
+  &--link {
+    display: inline-block;
+    border: none;
+    color: $gold;
+    text-decoration: underline;
+  }
+
+  &[disabled] {
+    background: $col-light;
+    border-color: $col-light;
+
+    &::after {
+      display: none;
+    }
+  }
+}

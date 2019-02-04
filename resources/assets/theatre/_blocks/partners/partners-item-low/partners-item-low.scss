@@ -1,0 +1,21 @@
+
+.partners-item-low {
+  margin: 0 0 40px;
+  width: 12.5%;
+  padding: 0 10px;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.partners-item-low__img {
+  @include border;
+  padding: 3px;
+  margin-top: auto;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}

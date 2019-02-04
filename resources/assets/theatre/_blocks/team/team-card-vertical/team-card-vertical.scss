@@ -1,0 +1,111 @@
+.team-card-vertical {
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 0 20px;
+  width: 100%;
+  @include border;
+}
+
+.team-card-vertical__img {
+  width: 100%;
+  margin: 0 0 5px;
+
+  img {
+    display: block;
+    width: 100%;
+
+    .object-fit & {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+.team-card-vertical__descr {
+  padding: 0 5px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-grow: 1;
+  // min-height: 110px;
+}
+
+.team-card-vertical__name {
+  @include title($text-align: left, $margin: 0 0 7px);
+}
+
+.team-card-vertical__post {
+  font-size: 12px;
+  line-height: 1.33;
+  margin: 0;
+  color: $gold;
+}
+
+.team-card-vertical__regalia {
+  font-size: 12px;
+  line-height: 1.33;
+  margin: 0 0 auto;
+  padding: 0 0 10px;
+
+  span {
+    display: block;
+  }
+}
+
+
+@media #{$s} {
+
+  .team-card-vertical {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border: none;
+    max-width: 450px;
+    padding: 0;
+  }
+
+  .team-card-vertical__descr {
+    padding-bottom: 0;
+
+    .btn-more-link {
+      font-size: 12px;
+    }
+  }
+
+  .team-card-vertical__img {
+    margin-bottom: 30px;
+
+    .team-members-vertical__actor-troupe & {
+      margin: 0 0 15px;
+    }
+  }
+
+  .team-card-vertical__name {
+    text-transform: initial;
+
+     .team-members-vertical__actor-troupe & {
+      font-size: 16px;
+      line-height: 1.56;
+      margin: 0 0 5px;
+    }
+  }
+
+  .team-card-vertical__regalia {
+    font-size: 16px;
+    line-height: 1.63;
+    padding: 0;
+    margin-bottom: 28px;
+
+    .team-members-vertical__actor-troupe & {
+      font-size: 12px;
+      line-height: 1.33;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+  }
+
+
+}
+

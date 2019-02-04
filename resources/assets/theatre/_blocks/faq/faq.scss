@@ -1,0 +1,119 @@
+.faq {
+  max-width: 740px;
+  padding: 0 0 20px;
+}
+
+.faq__sect {
+  margin-bottom: 30px;
+}
+
+.faq__sect-title {
+  @include title-24;
+  font-weight: 500;
+  text-align: left;
+  margin: 0 0 13px;
+}
+
+.faq__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid $col-light-grey;
+  border-left: 0;
+  border-right: 0;
+
+  li {
+    &:not(:last-child) {
+      border-bottom: 1px solid $col-light-grey;
+    }
+  }
+}
+
+.faq__list-name {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.44;
+  letter-spacing: 0.025em;
+  padding: 9px 20px 14px 0;
+  background: none;
+  border-radius: 0;
+  border: 0;
+  outline: 0;
+}
+
+.faq__list-icon {
+  margin-left: auto;
+  width: 12px;
+  height: 12px;
+  position: relative;
+
+  &::after,
+  &::before {
+    content: "";
+    position: absolute;
+    background: currentColor;
+    width: 12px;
+    height: 2px;
+    top: 50%;
+    left: 50%;
+    margin: -1px 0 0 -6px;
+    transition: 0.3s;
+  }
+
+  &::after {
+    transform: rotate(90deg);
+  }
+
+  [data-active] & {
+    &::after {
+      opacity: 0;
+    }
+  }
+}
+
+.faq__list-descr {
+  font-size: 16px;
+  line-height: 1.5;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.5s;
+
+  p {
+    margin: 0 0 20px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 25px 0;
+    font-family: $font-second;
+    font-weight: 500;
+  }
+
+  a {
+    color: inherit;
+    margin: 0 0 -20px;
+  }
+}
+
+
+@media #{$s} {
+  .faq__sect-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33;
+    margin: 0 0 14px;
+  }
+
+  .faq__list-name {
+    font-size: 16px;
+    line-height: 1.56;
+    padding: 12px 0;
+  }
+}

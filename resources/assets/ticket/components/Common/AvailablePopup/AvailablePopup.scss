@@ -1,0 +1,42 @@
+.available-popup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.available-popup__text {
+  width: 100%;
+  min-height: 145px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.available-popup__title {
+  margin: 0 0 15px;
+  text-align: center;
+}
+
+.available-popup__section-name {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.43;
+}
+
+.available-popup__section-list {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.43;
+  padding: 0;
+  list-style: none;
+}
+
+.available-popup__request {
+  margin: 27px 0 12px;
+  color: $gold;
+  text-align: center;
+
+  .available-popup--big & {
+    margin: 15px 0 12px;
+  }
+}

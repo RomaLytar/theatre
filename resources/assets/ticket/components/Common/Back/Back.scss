@@ -1,0 +1,33 @@
+.back {
+  border: 0;
+  padding: 0;
+  background: none;
+  border-radius: 0;
+  display: block;
+
+  &--left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  svg {
+    display: block;
+    transition: 0.3s;
+  }
+
+  &:hover,
+  &:focus {
+    svg {
+      fill: $gold;
+    }
+  }
+
+  &:active {
+    svg {
+      opacity: 0.5;
+      fill: $col;
+    }
+  }
+}

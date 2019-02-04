@@ -1,0 +1,53 @@
+// @media (min-width: 1000px) {
+@media print {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .wrap {
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .constructor {
+    display: block;
+  }
+
+  .constructor-aside,
+  .constructor-result__header {
+    display: none !important;
+  }
+
+  .constructor-result {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .constructor-canvas {
+    border: 0;
+    width: 100%;
+    padding: 0;
+    display: block;
+    border: 0;
+  }
+
+  .constructor-canvas__ticket {
+    margin: 0 auto;
+    outline: none;
+  }
+
+  .no-img {
+    img {
+      display: none !important;
+    }
+  }
+
+  @page {
+    margin: 0;
+  }
+}

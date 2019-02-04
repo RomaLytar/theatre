@@ -1,0 +1,42 @@
+.team-list {
+  // margin-bottom: 30px;
+}
+
+.team-list__title {
+  @include title-24;
+  margin: 0 0 25px;
+}
+
+.team-list__list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 25px;
+  columns: 3;
+  column-gap: 20px;
+  line-height: 1.44;
+  font-size: 18px;
+}
+
+@media #{$t} {
+  .team-list__list {
+    columns: 2;
+  }
+}
+
+@media #{$s} {
+
+  .team-list__list {
+    columns: 1;
+    column-gap: 0;
+    font-size: 16px;
+    line-height: 1.56;
+
+    [data-toggle-item] & {
+      display: none;
+    }
+
+    [data-active] & {
+      display: block;
+    }
+  }
+}

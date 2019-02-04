@@ -1,0 +1,117 @@
+.poster-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    padding: 0 10px;
+    border: 1px solid $gray;
+    margin: 0 0 10px;
+  }
+}
+
+.poster-list__header {
+  display: flex;
+  font-weight: 700;
+  margin: 0 -10px;
+  padding: 10px;
+
+  .active & {
+    background: $primary;
+    color: #fff;
+  }
+}
+
+.poster-list__date {
+  width: 100px;
+}
+
+.poster-list__day {
+  width: 100px;
+}
+
+.poster-list__date-current {
+  width: 100px;
+}
+
+.poster-list__btn {
+  margin-left: auto;
+  background: none;
+  border: 0;
+  border-radius: 3px;
+  padding: 5px 10px;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(180deg);
+  transition: 0.2s;
+
+  .active & {
+    svg {
+      fill: #fff;
+    }
+  }
+}
+
+.poster-list__table {
+  border: 1px solid #333;
+  margin: 10px 0;
+  width: 100%;
+
+  td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    vertical-align: middle;
+  }
+
+  tr {
+    transition: 0.3s;
+
+    &:hover {
+      cursor: pointer;
+      background: #eee;
+    }
+  }
+}
+
+.poster-list__table-date {
+  width: 60px;
+  text-align: center;
+  font-size: 120%;
+  font-weight: 700;
+}
+
+.poster-list__table-info {
+  width: 100%;
+}
+
+.poster-list__table-title {
+  display: block;
+  font-weight: 700;
+  text-decoration: none;
+  color: inherit;
+}
+
+.poster-list__table-hall {
+  display: block;
+  white-space: nowrap;
+  font-size: 0.9em;
+}
+
+.poster-list__table-seat {
+  font-size: 0.8em;
+  font-weight: 700;
+
+  span {
+    font-weight: 400;
+    display: block;
+    white-space: nowrap;
+  }
+}
+
+.poster-list__table-btn {
+  text-align: center;
+  white-space: nowrap;
+  position: relative;
+}

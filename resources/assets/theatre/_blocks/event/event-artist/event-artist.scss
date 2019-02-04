@@ -1,0 +1,60 @@
+.event-artist {
+  @include border;
+  padding: 3px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 20px;
+}
+
+.event-artist__img {
+  width: 47.5%;
+  margin: 0 5px 0 0;
+
+  img {
+    display: block;
+    width: 100%;
+
+    .object-fit & {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.event-artist__descr {
+  width: 52.5%;
+  font-size: 12px;
+  line-height: 1.33;
+}
+
+.event-artist__role {
+  @include title-12;
+  color: $gold;
+  font-weight: 400;
+  text-align: left;
+  margin: 0 0 -4px;
+}
+
+.event-artist__name {
+  @include title;
+  text-align: left;
+}
+
+.event-artist__regalia {
+  margin: 0 0 15px;
+
+  span {
+    display: block;
+  }
+}
+
+.event-artist__repertoire {
+  margin: 0;
+  color: $gold;
+
+  span {
+    display: block;
+  }
+}
+

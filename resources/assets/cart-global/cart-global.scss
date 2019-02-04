@@ -1,0 +1,99 @@
+@import "../global/scss/mixins/mediaquery";
+
+.cart-global {
+  background: #281d21;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5000;
+  padding: 8px 0;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #fff;
+}
+
+.cart-global__wrap {
+  margin-left: 220px;
+  display: flex;
+  align-items: center;
+}
+
+.cart-global__link {
+  color: #000;
+  text-decoration: none;
+  margin-right: 55px;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.cart-global__count {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  background: #fff;
+  font-size: 10px;
+  line-height: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-global__info {
+  display: flex;
+  align-items: center;
+}
+
+.cart-global__timer {
+  margin: 0 10px;
+  font-size: 16px;
+  line-height: 1.38;
+}
+
+@media #{$s} {
+  .cart-global {
+    padding: 11px 0;
+    font-size: 12px;
+    line-height: 1.67;
+  }
+
+  .cart-global__wrap {
+    margin: 0;
+    padding: 0 10px;
+    justify-content: center;
+  }
+
+  .cart-global__link {
+    margin-right: 15px;
+    width: 22px;
+    height: 22px;
+
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .cart-global__count {
+    width: 12px;
+    height: 12px;
+    font-size: 10px;
+  }
+
+  .cart-global__info {
+    font-size: 0;
+  }
+
+  .cart-global__timer {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.57;
+  }
+}

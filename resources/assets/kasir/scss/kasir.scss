@@ -1,0 +1,36 @@
+//global
+  @import "../../global/scss/global/normalize";
+  @import "../../global/scss/mixins/mediaquery";
+  @import "../../global/scss/mixins/visually-hidden";
+  @import "global/variables";
+  @import "global/global-scaffolding";
+//_________
+
+@import "../components/Common/KasirHeader/KasirHeader";
+
+@import "../components/Poster/Poster";
+@import "../components/Poster/PosterList/PosterList";
+@import "../components/Poster/PosterPrice/PosterPrice";
+@import "../components/Poster/PosterAside/PosterAside";
+
+@import "../components/Booking/Booking";
+
+@import "../components/Hall/Hall";
+@import "../components/Hall/HallDescription/HallDescription";
+@import "../components/Hall/HallSeats/HallSeats";
+@import "../components/Hall/HallPrice/HallPrice";
+@import "../components/Hall/HallScheme/HallSchemeHint";
+
+@import "../components/Cart/Cart";
+@import "../components/Payment/Payment";
+@import "../components/BookingTicket/BookingTicket";
+@import "../components/LastOrder/LastOrder";
+@import "../components/ShowHall/ShowHall";
+@import "../components/ConfirmRemoveTickets/ConfirmRemoveTickets";
+
+@import "../components/Common/Cross/Cross";
+@import "../components/Common/Popup/Popup";
+@import "../components/Common/Preloader/Preloader";
+@import "../components/Common/ButtonReload/ButtonReload";
+
+@import "../components/Common/Print/Print";

@@ -1,0 +1,38 @@
+.info-block {
+  font-size: 18px;
+  line-height: 1.44;
+
+  h2 {
+    @include title($margin: 0 0 25px 0, $font-weight: 700, $text-align: left);
+  }
+
+  p {
+    // margin: 0 0 25px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.44;
+
+    &:last-child {
+      margin-bottom: 32px;
+    }
+  }
+
+  a {
+    color: $gold;
+    text-decoration: none;
+    display: inline-block;
+  }
+}
+
+
+@media #{$s} {
+  .info-block {
+    margin-bottom: 50px;
+    text-align: center;
+
+    h2 {
+      text-align: center;
+      line-height: 1.56;
+    }
+  }
+}

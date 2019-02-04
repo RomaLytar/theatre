@@ -1,0 +1,322 @@
+.filter {
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: left;
+  margin-bottom: 40px;
+
+  &--margin-top {
+    margin-top: 20px;
+  }
+}
+
+.filter__close-btn {
+  display: none;
+}
+
+.filter__reset-btn {
+  display: none;
+}
+
+.filter__title {
+  display: none;
+}
+
+.filter__list {
+  padding: 0;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  &--center {
+    justify-content: center;
+  }
+}
+
+.filter__item {
+  position: relative;
+
+  &[data-hidden] {
+    display: none;
+  }
+}
+
+.filter__name {
+  @include border;
+  border-radius: 0;
+  width: 100%;
+  background: none;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 0.79em 1.83em 0.79em 2.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: color 0.3s;
+  outline: none;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: $gold;
+
+    svg {
+      fill: $gold;
+    }
+  }
+
+  .filter__name-daterange {
+    display: none;
+  }
+
+  svg {
+    transform-origin: 50% 50%;
+    transition: transform 0.3s, fill 0.3s;
+    margin-left: auto;
+
+    [data-active] & {
+      transform: rotate(180deg);
+    }
+  }
+
+  span {
+    margin: 0 5px;
+  }
+}
+
+
+  .filter__name-daterange + .filter__name-daterange {
+    &::before {
+      content: "-";
+      margin: 0 4px;
+    }
+  }
+
+.filter__item-list {
+  @include border;
+  margin: -1px 0 0;
+  padding: 1.17em 1em 1.42em 2.5em;
+  list-style: none;
+  display: none;
+  position: absolute;
+  z-index: 100;
+  top: 100%;
+  left: 10px;
+  right: 10px;
+  max-height: 400px;
+  min-height: 100px;
+  overflow: auto;
+  background: #ffffff;
+  line-height: 2;
+  transition: color 0.3s;
+
+  a:not(.btn-more) {
+    text-decoration: none;
+    color: inherit;
+
+    &[data-active],
+    &:hover,
+    &:active,
+    &:focus {
+      color: $gold;
+    }
+  }
+
+  & [data-datepicker] {
+    right: auto;
+  }
+
+  [data-active] & {
+    display: block;
+  }
+
+  &--daterange {
+    padding: 0 0 1em;
+    text-align: center;
+
+    [data-datepicker] {
+      margin-bottom: 1em;
+    }
+  }
+}
+
+.filter-btn-apply {
+  display: none;
+  width: 100%;
+  max-width: 355px;
+}
+
+@media #{$d-x} {
+  .filter {
+    margin-bottom: 20px;
+  }
+
+  .filter__item {
+    margin-bottom: 10px;
+  }
+}
+
+@media #{$t} {
+  .filter {
+    &--premier {
+      display: block;
+
+      .filter__item {
+        margin-bottom: 0;
+      }
+
+      .filter__list {
+        justify-content: center;
+      }
+
+      .filter__item {
+        max-width: 355px;
+        padding: 0;
+      }
+    }
+  }
+}
+
+@media #{$s} {
+  .filter {
+    display: none;
+
+    &--mobile {
+      position: fixed;
+      padding: 20px 10px;
+      margin: 0;
+
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 100000;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+
+      opacity: 0;
+      background-color: rgba(48, 46, 52, .3);
+
+      transition: opacity .3s, transform .05s .3s;
+      transform: translateX(-100%);
+    }
+
+    &.popup--active {
+      opacity: 1;
+
+      transition: transform .05s, opacity .3s .05s;
+      transform: translateX(0);
+    }
+  }
+
+  .filter__list {
+    margin-bottom: 100px;
+  }
+
+  .filter__item {
+    margin: 0;
+  }
+
+  .filter__item-list {
+    border: none;
+    border-top: 1px solid  rgba(153, 153, 153, 0.5);
+    padding: 10px 10px 0 35px;
+
+    &--daterange {
+      padding: 10px 10px 0 10px;
+    }
+
+    li {
+      margin-bottom: 15px;
+      text-align: left;
+    }
+  }
+
+  .filter__close-btn {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 32px;
+    width: 20px;
+    height: 20px;
+    line-height: 0;
+    border: 0;
+    background: none;
+    font-size: 0;
+    padding: 0;
+
+    &:hover {
+      svg {
+        fill: $gold;
+      }
+    }
+
+    svg {
+      width: 100%;
+      height: 100%;
+      fill: $col;
+      transition: fill 0.5s;
+    }
+  }
+
+  .filter__reset-btn {
+    display: block;
+    margin: 0  0 10px auto;
+    color: #666;
+    background: none;
+    border: 0;
+  }
+
+  .filter__title {
+    display: block;
+    margin: 0 0 30px;
+    padding: 0 70px;
+    font-size: 14px;
+    line-height: 1.43;
+    color: $gold;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .filter__inner {
+    position: relative;
+    padding: 20px 10px 65px;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    max-width: 355px;
+    text-align: center;
+  }
+
+  .filter__name {
+    border: none;
+    border-bottom: 1px solid #999;
+    font-size: 14px;
+    line-height: 1.57;
+    padding: 14px 24px 14px 20px;
+
+    svg {
+      width: 18px;
+      height: 18px;
+    }
+
+    span {
+      margin: 0;
+    }
+
+    .filter__name-daterange {
+      display: inline;
+
+      &~.filter__name-date {
+        display: none;
+      }
+    }
+  }
+
+  .filter-btn-apply {
+    display: block;
+  }
+}

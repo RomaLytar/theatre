@@ -1,0 +1,51 @@
+.scheme-seat-hint {
+  padding: 5px 10px 10px;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background: $gold;
+  color: #fff;
+  text-align: center;
+  min-width: 120px;
+  font-size: 14px;
+  line-height: 1.43;
+
+  &::after {
+    content: "";
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    position: absolute;
+  }
+
+  &--left {
+    &::after {
+      left: 0;
+    }
+  }
+
+  &--right {
+    &::after {
+      right: 0;
+    }
+  }
+
+  &--top {
+    &::after {
+      bottom: 100%;
+      border-bottom: $gold 14px solid;
+    }
+  }
+
+  &--bottom {
+    &::after {
+      top: 100%;
+      border-top: $gold 14px solid;
+    }
+  }
+
+  p {
+    margin: 0;
+    white-space: nowrap;
+  }
+}

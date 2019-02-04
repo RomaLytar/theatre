@@ -1,0 +1,1126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1043 331.4">
+<style type="text/css">
+	circle{fill:#fff;stroke:#666;stroke-width:0.5;cursor:pointer;transition:0.3s;}
+	text{font-family:'Arial',sans-serif;font-size:7px;fill:#333;pointer-events:none;}
+	.st1{fill:none;stroke:#666;stroke-width:0.5;}
+	.row{fill:#666;}
+	.scene{fill:#E2E2E2;}
+	.scene-text{font-size:24px;}
+  .available circle{fill:#009238;stroke-width:0;}
+  .not-available circle{fill:#e7e7e7;stroke:#888888;}
+  .selected circle{fill:#f490a5;stroke-width:0;}
+  .best circle{fill:#cc9933;stroke-width:0;}
+  [data-partial-visible] circle{opacity:0.6;}
+</style>
+<g id="scene">
+	<path class="scene" d="M730.1,65.8L730.1,65.8L730.1,65.8c-0.7-2.3-1.7-3.9-3-6.4l-39.7-46.8c-5-6.2-9.2-12.2-17.1-12.2H513.9H357.7  c-7.9,0-12.1,6-17.1,12.3l-39.7,46.8c-1.4,2.5-2.4,4.1-3,6.4l0,0l0,0c-0.7,2.2-1.1,4.3-0.8,6.8c0.9,9.3,9.1,16.2,18.4,16.2h198h1.1  h198c9.4,0,17.4-6.9,18.4-16.2C731.1,70.1,730.7,68.1,730.1,65.8z"/>
+	<text transform="matrix(1 0 0 1 478.1031 49.04)" class="scene-text">СЦЕНА</text>
+</g>
+<g id="balcony-2">
+	<g data-section="5" data-name-ru="Балкон II-го яруса" data-name-en="Balcony II tier" data-name-ua="Балкон II-го ярусу">
+		<path class="st1" d="M257.3,241.6H236C86.4,229.2,33.7,117.9,33.7,117.9C22.6,99.4,25.5,85.5,9,89.2c-7.6,1.7-8.5,10.8-8.7,28.1    v0.3v0.1v0.1c0,0-0.1,4.9,0,6.5c9.1,170.6,186.4,201.6,277,206.4L257.3,241.6z"/>
+		<g data-row="1">
+			<g data-seat="1">
+				<circle cx="9.6" cy="102.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 7.3462 104.8877)">1</text>
+			</g>
+			<g data-seat="2">
+				<circle cx="15.3" cy="113.7" r="5.5"/>
+				<text transform="matrix(1 0 0 1 12.8771 116.672)">2</text>
+			</g>
+			<g data-seat="3">
+				<circle cx="21.4" cy="124" r="5.5"/>
+				<text transform="matrix(1 0 0 1 19.4867 127.4231)">3</text>
+			</g>
+			<g data-seat="4">
+				<circle cx="28.3" cy="134.2" r="5.5"/>
+				<text transform="matrix(1 0 0 1 25.8771 137.2524)">4</text>
+			</g>
+			<g data-seat="5">
+				<circle cx="36.6" cy="144.7" r="5.5"/>
+				<text transform="matrix(1 0 0 1 34.2371 148.067)">5</text>
+			</g>
+			<g data-seat="6">
+				<circle cx="43.5" cy="155.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 41.1353 158.1751)">6</text>
+			</g>
+			<g data-seat="7">
+				<circle cx="51.3" cy="165.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 49.5789 168.1985)">7</text>
+			</g>
+			<g data-seat="8">
+				<circle cx="59.8" cy="175" r="5.5"/>
+				<text transform="matrix(1 0 0 1 58.2996 178.0944)">8</text>
+			</g>
+			<g data-seat="9">
+				<circle cx="68.3" cy="184.8" r="5.5"/>
+				<text transform="matrix(1 0 0 1 66.0288 187.8757)">9</text>
+			</g>
+			<g data-seat="10">
+				<circle cx="77.4" cy="193.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 72.9349 196.7397)">10</text>
+			</g>
+			<g data-seat="11">
+				<circle cx="86.8" cy="203" r="5.5"/>
+				<text transform="matrix(1 0 0 1 82.2786 205.8856)">11</text>
+			</g>
+			<g data-seat="12">
+				<circle cx="98.6" cy="210.8" r="5.5"/>
+				<text transform="matrix(1 0 0 1 93.9604 213.5522)">12</text>
+			</g>
+			<g data-seat="13">
+				<circle cx="110.3" cy="218.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 105.9401 221.4267)">13</text>
+			</g>
+			<g data-seat="14">
+				<circle cx="121.3" cy="225" r="5.5"/>
+				<text transform="matrix(1 0 0 1 116.8092 228.0402)">14</text>
+			</g>
+			<g data-seat="15">
+				<circle cx="132.5" cy="230.8" r="5.5"/>
+				<text transform="matrix(1 0 0 1 127.8465 234.0103)">15</text>
+			</g>
+			<g data-seat="16">
+				<circle cx="144.2" cy="236.4" r="5.5"/>
+				<text transform="matrix(1 0 0 1 139.4603 239.3215)">16</text>
+			</g>
+			<g data-seat="17">
+				<circle cx="155.5" cy="242" r="5.5"/>
+				<text transform="matrix(1 0 0 1 150.9661 245.2803)">17</text>
+			</g>
+			<g data-seat="18">
+				<circle cx="167.6" cy="246.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 163.1699 249.8911)">18</text>
+			</g>
+			<g data-seat="19">
+				<circle cx="179.8" cy="250.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 175.2996 253.5224)">19</text>
+			</g>
+			<g data-seat="20">
+				<circle cx="191.8" cy="254.2" r="5.5"/>
+				<text transform="matrix(1 0 0 1 187.5599 257.2767)">20</text>
+			</g>
+			<g data-seat="21">
+				<circle cx="203.9" cy="256.7" r="5.5"/>
+				<text transform="matrix(1 0 0 1 199.8516 259.8318)">21</text>
+			</g>
+			<g data-seat="22">
+				<circle cx="215.9" cy="258.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 211.6432 261.6236)">22</text>
+			</g>
+			<g data-seat="23">
+				<circle cx="227.9" cy="259.2" r="5.5"/>
+				<text transform="matrix(1 0 0 1 223.8099 262.2256)">23</text>
+			</g>
+			<g data-seat="24">
+				<circle cx="240.2" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 236.0599 262.8506)">24</text>
+			</g>
+			<text transform="matrix(1 0 0 1 249.958 264.0003)" class="row">1</text>
+		</g>
+		<g data-row="2">
+			<g data-seat="1">
+				<circle cx="44.1" cy="181.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 41.7578 184.9213)">1</text>
+			</g>
+			<g data-seat="2">
+				<circle cx="52.5" cy="191.7" r="5.5"/>
+				<text transform="matrix(1 0 0 1 50.1538 194.7393)">2</text>
+			</g>
+			<g data-seat="3">
+				<circle cx="61" cy="200.4" r="5.5"/>
+				<text transform="matrix(1 0 0 1 58.8692 203.3726)">3</text>
+			</g>
+			<g data-seat="4">
+				<circle cx="70.2" cy="209.2" r="5.5"/>
+				<text transform="matrix(1 0 0 1 67.6727 212.0858)">4</text>
+			</g>
+			<g data-seat="5">
+				<circle cx="79.6" cy="217.7" r="5.5"/>
+				<text transform="matrix(1 0 0 1 77.4646 220.8641)">5</text>
+			</g>
+			<g data-seat="6">
+				<circle cx="89.4" cy="225.4" r="5.5"/>
+				<text transform="matrix(1 0 0 1 86.8644 228.5518)">6</text>
+			</g>
+			<g data-seat="7">
+				<circle cx="99.1" cy="232.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 96.8289 236.0305)">7</text>
+			</g>
+			<g data-seat="8">
+				<circle cx="110" cy="239.7" r="5.5"/>
+				<text transform="matrix(1 0 0 1 108.0496 242.8913)">8</text>
+			</g>
+			<g data-seat="9">
+				<circle cx="121.3" cy="245.4" r="5.5"/>
+				<text transform="matrix(1 0 0 1 119.1538 248.468)">9</text>
+			</g>
+			<g data-seat="10">
+				<circle cx="132" cy="251" r="5.5"/>
+				<text transform="matrix(1 0 0 1 127.4349 254.2641)">10</text>
+			</g>
+			<g data-seat="11">
+				<circle cx="143.2" cy="256.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 138.9971 259.6981)">11</text>
+			</g>
+			<g data-seat="12">
+				<circle cx="155.3" cy="261.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 150.7733 264.4272)">12</text>
+			</g>
+			<g data-seat="13">
+				<circle cx="167.6" cy="265.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 162.9614 268.5101)">13</text>
+			</g>
+			<g data-seat="14">
+				<circle cx="179.6" cy="268.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 174.7754 271.7067)">14</text>
+			</g>
+			<g data-seat="15">
+				<circle cx="191.7" cy="271.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 187.0965 274.4789)">15</text>
+			</g>
+			<g data-seat="16">
+				<circle cx="203.6" cy="273.2" r="5.5"/>
+				<text transform="matrix(1 0 0 1 198.9603 275.9881)">16</text>
+			</g>
+			<g data-seat="17">
+				<circle cx="215.7" cy="274.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 211.2995 278.1971)">17</text>
+			</g>
+			<g data-seat="18">
+				<circle cx="227.9" cy="275.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 223.3366 278.1971)">18</text>
+			</g>
+			<text transform="matrix(1 0 0 1 238.958 280.0003)" class="row">2</text>
+		</g>
+	</g>
+	<g data-section="6" data-name-ru="Балкон II-го яруса" data-name-en="Balcony II tier" data-name-ua="Балкон II-го ярусу">
+		<path class="st1" d="M283.3,330.7c25.6,1.4,37.2,0.6,43,0.3c44.9,0.1,128.4,0,199.7,0c71.1,0,144.8,0,189.7,0    c4.3,0.2,34.3,0,45.3-0.1l18.3-89.3H773h-37.4v-0.2L526,241.5l-219.5-0.1v0.2h-43.8C263.3,243,283.3,330.7,283.3,330.7z"/>
+		<g data-row="1">
+			<g data-seat="1">
+				<circle cx="302.1" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 300.0381 262.2259)">1</text>
+			</g>
+			<g data-seat="2">
+				<circle cx="314" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 311.877 262.2259)">2</text>
+			</g>
+			<g data-seat="3">
+				<circle cx="326.1" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 324.0143 262.2259)">3</text>
+			</g>
+			<g data-seat="4">
+				<circle cx="337.9" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 335.739 262.2259)">4</text>
+			</g>
+			<g data-seat="5">
+				<circle cx="349.8" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 347.7263 262.2259)">5</text>
+			</g>
+			<g data-seat="6">
+				<circle cx="361.6" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 359.4826 262.2259)">6</text>
+			</g>
+			<g data-seat="7">
+				<circle cx="373.5" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 371.3938 262.2259)">7</text>
+			</g>
+			<g data-seat="8">
+				<circle cx="385.3" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 383.1709 262.2259)">8</text>
+			</g>
+			<g data-seat="9">
+				<circle cx="397.2" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 395.0746 262.2259)">9</text>
+			</g>
+			<g data-seat="10">
+				<circle cx="409.1" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 404.9721 262.2259)">10</text>
+			</g>
+			<g data-seat="11">
+				<circle cx="421" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 416.9261 262.2259)">11</text>
+			</g>
+			<g data-seat="12">
+				<circle cx="432.9" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 428.8403 262.2259)">12</text>
+			</g>
+			<g data-seat="13">
+				<circle cx="444.8" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 440.7242 262.2259)">13</text>
+			</g>
+			<g data-seat="14">
+				<circle cx="456.7" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 452.4834 262.2259)">14</text>
+			</g>
+			<g data-seat="15">
+				<circle cx="468.6" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 464.5238 262.2259)">15</text>
+			</g>
+			<g data-seat="16">
+				<circle cx="480.6" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 476.3961 262.2259)">16</text>
+			</g>
+			<g data-seat="17">
+				<circle cx="492.5" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 488.3396 262.2259)">17</text>
+			</g>
+			<g data-seat="18">
+				<circle cx="504.4" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 500.2444 262.2259)">18</text>
+			</g>
+			<g data-seat="19">
+				<circle cx="516.3" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 512.106 262.2256)">19</text>
+			</g>
+			<g data-seat="20">
+				<circle cx="528.2" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 524.0354 262.2256)">20</text>
+			</g>
+			<g data-seat="21">
+				<circle cx="540.1" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 536.0204 262.2256)">21</text>
+			</g>
+			<g data-seat="22">
+				<circle cx="552.1" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 547.9537 262.2255)">22</text>
+			</g>
+			<g data-seat="23">
+				<circle cx="564" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 559.916 262.2256)">23</text>
+			</g>
+			<g data-seat="24">
+				<circle cx="575.9" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 571.7164 262.2256)">24</text>
+			</g>
+			<g data-seat="25">
+				<circle cx="587.9" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 583.7767 262.2259)">25</text>
+			</g>
+			<g data-seat="26">
+				<circle cx="599.9" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 595.6754 262.2259)">26</text>
+			</g>
+			<g data-seat="27">
+				<circle cx="611.7" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 607.5763 262.2255)">27</text>
+			</g>
+			<g data-seat="28">
+				<circle cx="623.6" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 619.4691 262.2255)">28</text>
+			</g>
+			<g data-seat="29">
+				<circle cx="635.5" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 631.338 262.2255)">29</text>
+			</g>
+			<g data-seat="30">
+				<circle cx="647.4" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 643.2815 262.2255)">30</text>
+			</g>
+			<g data-seat="31">
+				<circle cx="659.4" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 655.2894 262.2255)">31</text>
+			</g>
+			<g data-seat="32">
+				<circle cx="671.3" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 667.2308 262.2255)">32</text>
+			</g>
+			<g data-seat="33">
+				<circle cx="683.2" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 679.1418 262.2255)">33</text>
+			</g>
+			<g data-seat="34">
+				<circle cx="695.1" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 690.8899 262.2255)">34</text>
+			</g>
+			<g data-seat="35">
+				<circle cx="707.1" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 702.9518 262.2255)">35</text>
+			</g>
+			<g data-seat="36">
+				<circle cx="718.9" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 714.7602 262.2259)">36</text>
+			</g>
+			<g data-seat="37">
+				<circle cx="730.9" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 726.7274 262.2259)">37</text>
+			</g>
+			<g data-seat="38">
+				<circle cx="742.8" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 738.5876 262.2259)">38</text>
+			</g>
+			<text transform="matrix(1 0 0 1 285.7033 263.0056)" class="row">1</text>
+			<text transform="matrix(1 0 0 1 753.9233 263.0056)" class="row">1</text>
+		</g>
+		<g data-row="2">
+			<g data-seat="1">
+				<circle cx="314" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 311.8771 276.4803)">1</text>
+			</g>
+			<g data-seat="2">
+				<circle cx="326.1" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 324.0146 276.4803)">2</text>
+			</g>
+			<g data-seat="3">
+				<circle cx="337.9" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 335.7976 276.4803)">3</text>
+			</g>
+			<g data-seat="4">
+				<circle cx="349.8" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 347.5724 276.4803)">4</text>
+			</g>
+			<g data-seat="5">
+				<circle cx="361.6" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 359.5595 276.4803)">5</text>
+			</g>
+			<g data-seat="6">
+				<circle cx="373.5" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 371.3158 276.4803)">6</text>
+			</g>
+			<g data-seat="7">
+				<circle cx="385.3" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 383.2269 276.4803)">7</text>
+			</g>
+			<g data-seat="8">
+				<circle cx="397.1" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 395.0042 276.4803)">8</text>
+			</g>
+			<g data-seat="9">
+				<circle cx="409" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 406.9077 276.4803)">9</text>
+			</g>
+			<g data-seat="10">
+				<circle cx="421" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 416.8053 276.4803)">10</text>
+			</g>
+			<g data-seat="11">
+				<circle cx="432.9" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 428.7592 276.4803)">11</text>
+			</g>
+			<g data-seat="12">
+				<circle cx="444.8" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 440.6736 276.4803)">12</text>
+			</g>
+			<g data-seat="13">
+				<circle cx="456.7" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 452.5573 276.4803)">13</text>
+			</g>
+			<g data-seat="14">
+				<circle cx="468.5" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 464.3165 276.4803)">14</text>
+			</g>
+			<g data-seat="15">
+				<circle cx="480.5" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 476.357 276.4803)">15</text>
+			</g>
+			<g data-seat="16">
+				<circle cx="492.4" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 488.2293 276.4803)">16</text>
+			</g>
+			<g data-seat="17">
+				<circle cx="504.3" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 500.1727 276.4803)">17</text>
+			</g>
+			<g data-seat="18">
+				<circle cx="516.2" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 512.0775 276.4803)">18</text>
+			</g>
+			<g data-seat="19">
+				<circle cx="528.1" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 523.9391 276.48)">19</text>
+			</g>
+			<g data-seat="20">
+				<circle cx="540" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 535.8686 276.48)">20</text>
+			</g>
+			<g data-seat="21">
+				<circle cx="552" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 547.8535 276.48)">21</text>
+			</g>
+			<g data-seat="22">
+				<circle cx="563.9" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 559.7869 276.4799)">22</text>
+			</g>
+			<g data-seat="23">
+				<circle cx="575.9" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 571.7493 276.48)">23</text>
+			</g>
+			<g data-seat="24">
+				<circle cx="587.8" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 583.5497 276.48)">24</text>
+			</g>
+			<g data-seat="25">
+				<circle cx="599.7" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 595.6099 276.4803)">25</text>
+			</g>
+			<g data-seat="26">
+				<circle cx="611.7" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 607.5087 276.4803)">26</text>
+			</g>
+			<g data-seat="27">
+				<circle cx="623.5" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 619.4094 276.4799)">27</text>
+			</g>
+			<g data-seat="28">
+				<circle cx="635.5" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 631.3022 276.4799)">28</text>
+			</g>
+			<g data-seat="29">
+				<circle cx="647.3" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 643.1713 276.4799)">29</text>
+			</g>
+			<g data-seat="30">
+				<circle cx="659.3" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 655.1146 276.4799)">30</text>
+			</g>
+			<g data-seat="31">
+				<circle cx="671.2" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 667.1225 276.4799)">31</text>
+			</g>
+			<g data-seat="32">
+				<circle cx="683.2" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 679.064 276.4799)">32</text>
+			</g>
+			<g data-seat="33">
+				<circle cx="695.1" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 690.975 276.4799)">33</text>
+			</g>
+			<g data-seat="34">
+				<circle cx="707" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 702.723 276.4799)">34</text>
+			</g>
+			<g data-seat="35">
+				<circle cx="718.9" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 714.7849 276.4799)">35</text>
+			</g>
+			<g data-seat="36">
+				<circle cx="730.8" cy="273.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 726.5935 276.4803)">36</text>
+			</g>
+			<text transform="matrix(1 0 0 1 296.7033 277.1583)" class="row">2</text>
+			<text transform="matrix(1 0 0 1 743.9233 277.1583)" class="row">2</text>
+		</g>
+		<g data-row="3">
+			<g data-seat="1">
+				<circle cx="314" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 311.8771 290.6678)">1</text>
+			</g>
+			<g data-seat="2">
+				<circle cx="326.1" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 324.0146 290.6678)">2</text>
+			</g>
+			<g data-seat="3">
+				<circle cx="337.9" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 335.7976 290.6678)">3</text>
+			</g>
+			<g data-seat="4">
+				<circle cx="349.8" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 347.5724 290.6678)">4</text>
+			</g>
+			<g data-seat="5">
+				<circle cx="361.6" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 359.5595 290.6678)">5</text>
+			</g>
+			<g data-seat="6">
+				<circle cx="373.5" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 371.3158 290.6678)">6</text>
+			</g>
+			<g data-seat="7">
+				<circle cx="385.3" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 383.2269 290.6678)">7</text>
+			</g>
+			<g data-seat="8">
+				<circle cx="397.1" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 395.0042 290.6678)">8</text>
+			</g>
+			<g data-seat="9">
+				<circle cx="409" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 406.9077 290.6678)">9</text>
+			</g>
+			<g data-seat="10">
+				<circle cx="421" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 416.8053 290.6678)">10</text>
+			</g>
+			<g data-seat="11">
+				<circle cx="432.9" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 428.7592 290.6678)">11</text>
+			</g>
+			<g data-seat="12">
+				<circle cx="444.8" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 440.6736 290.6678)">12</text>
+			</g>
+			<g data-seat="13">
+				<circle cx="456.7" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 452.5573 290.6678)">13</text>
+			</g>
+			<g data-seat="14">
+				<circle cx="468.5" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 464.3165 290.6678)">14</text>
+			</g>
+			<g data-seat="15">
+				<circle cx="480.5" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 476.357 290.6678)">15</text>
+			</g>
+			<g data-seat="16">
+				<circle cx="492.4" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 488.2293 290.6678)">16</text>
+			</g>
+			<g data-seat="17">
+				<circle cx="504.3" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 500.1727 290.6678)">17</text>
+			</g>
+			<g data-seat="18">
+				<circle cx="516.2" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 512.0775 290.6678)">18</text>
+			</g>
+			<g data-seat="19">
+				<circle cx="528.1" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 523.9391 290.6675)">19</text>
+			</g>
+			<g data-seat="20">
+				<circle cx="540" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 535.8686 290.6675)">20</text>
+			</g>
+			<g data-seat="21">
+				<circle cx="552" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 547.8535 290.6675)">21</text>
+			</g>
+			<g data-seat="22">
+				<circle cx="563.9" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 559.7869 290.6674)">22</text>
+			</g>
+			<g data-seat="23">
+				<circle cx="575.9" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 571.7493 290.6675)">23</text>
+			</g>
+			<g data-seat="24">
+				<circle cx="587.8" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 583.5497 290.6675)">24</text>
+			</g>
+			<g data-seat="25">
+				<circle cx="599.7" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 595.6099 290.6678)">25</text>
+			</g>
+			<g data-seat="26">
+				<circle cx="611.7" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 607.5087 290.6678)">26</text>
+			</g>
+			<g data-seat="27">
+				<circle cx="623.5" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 619.4094 290.6674)">27</text>
+			</g>
+			<g data-seat="28">
+				<circle cx="635.5" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 631.3022 290.6674)">28</text>
+			</g>
+			<g data-seat="29">
+				<circle cx="647.3" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 643.1713 290.6674)">29</text>
+			</g>
+			<g data-seat="30">
+				<circle cx="659.3" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 655.1146 290.6674)">30</text>
+			</g>
+			<g data-seat="31">
+				<circle cx="671.2" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 667.1225 290.6674)">31</text>
+			</g>
+			<g data-seat="32">
+				<circle cx="683.2" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 679.064 290.6674)">32</text>
+			</g>
+			<g data-seat="33">
+				<circle cx="695.1" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 690.975 290.6674)">33</text>
+			</g>
+			<g data-seat="34">
+				<circle cx="707" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 702.723 290.6674)">34</text>
+			</g>
+			<g data-seat="35">
+				<circle cx="718.9" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 714.7849 290.6674)">35</text>
+			</g>
+			<g data-seat="36">
+				<circle cx="730.8" cy="288.1" r="5.5"/>
+				<text transform="matrix(1 0 0 1 726.5935 290.6678)">36</text>
+			</g>
+			<text transform="matrix(1 0 0 1 296.79 291.134)" class="row">3</text>
+			<text transform="matrix(1 0 0 1 744.0099 291.134)" class="row">3</text>
+		</g>
+		<g data-row="4">
+			<g data-seat="1">
+				<circle cx="314" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 311.8771 304.8553)">1</text>
+			</g>
+			<g data-seat="2">
+				<circle cx="326.1" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 324.0146 304.8553)">2</text>
+			</g>
+			<g data-seat="3">
+				<circle cx="337.9" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 335.7976 304.8553)">3</text>
+			</g>
+			<g data-seat="4">
+				<circle cx="349.8" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 347.5724 304.8553)">4</text>
+			</g>
+			<g data-seat="5">
+				<circle cx="361.6" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 359.5595 304.8553)">5</text>
+			</g>
+			<g data-seat="6">
+				<circle cx="373.5" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 371.3158 304.8553)">6</text>
+			</g>
+			<g data-seat="7">
+				<circle cx="385.3" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 383.2269 304.8553)">7</text>
+			</g>
+			<g data-seat="8">
+				<circle cx="397.1" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 395.0042 304.8553)">8</text>
+			</g>
+			<g data-seat="9">
+				<circle cx="409" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 406.9077 304.8553)">9</text>
+			</g>
+			<g data-seat="10">
+				<circle cx="421" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 416.8053 304.8553)">10</text>
+			</g>
+			<g data-seat="11">
+				<circle cx="432.9" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 428.7592 304.8553)">11</text>
+			</g>
+			<g data-seat="12">
+				<circle cx="444.8" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 440.6736 304.8553)">12</text>
+			</g>
+			<g data-seat="13">
+				<circle cx="456.7" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 452.5573 304.8553)">13</text>
+			</g>
+			<g data-seat="14">
+				<circle cx="468.5" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 464.3165 304.8553)">14</text>
+			</g>
+			<g data-seat="15">
+				<circle cx="480.5" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 476.357 304.8553)">15</text>
+			</g>
+			<g data-seat="16">
+				<circle cx="492.4" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 488.2293 304.8553)">16</text>
+			</g>
+			<g data-seat="17">
+				<circle cx="504.3" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 500.1727 304.8553)">17</text>
+			</g>
+			<g data-seat="18">
+				<circle cx="516.2" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 512.0775 304.8553)">18</text>
+			</g>
+			<g data-seat="19">
+				<circle cx="528.1" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 523.9391 304.855)">19</text>
+			</g>
+			<g data-seat="20">
+				<circle cx="540" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 535.8686 304.855)">20</text>
+			</g>
+			<g data-seat="21">
+				<circle cx="552" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 547.8535 304.855)">21</text>
+			</g>
+			<g data-seat="22">
+				<circle cx="563.9" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 559.7869 304.8549)">22</text>
+			</g>
+			<g data-seat="23">
+				<circle cx="575.9" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 571.7493 304.855)">23</text>
+			</g>
+			<g data-seat="24">
+				<circle cx="587.8" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 583.5497 304.855)">24</text>
+			</g>
+			<g data-seat="25">
+				<circle cx="599.7" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 595.6099 304.8553)">25</text>
+			</g>
+			<g data-seat="26">
+				<circle cx="611.7" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 607.5087 304.8553)">26</text>
+			</g>
+			<g data-seat="27">
+				<circle cx="623.5" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 619.4094 304.8549)">27</text>
+			</g>
+			<g data-seat="28">
+				<circle cx="635.5" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 631.3022 304.8549)">28</text>
+			</g>
+			<g data-seat="29">
+				<circle cx="647.3" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 643.1713 304.8549)">29</text>
+			</g>
+			<g data-seat="30">
+				<circle cx="659.3" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 655.1146 304.8549)">30</text>
+			</g>
+			<g data-seat="31">
+				<circle cx="671.2" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 667.1225 304.8549)">31</text>
+			</g>
+			<g data-seat="32">
+				<circle cx="683.2" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 679.064 304.8549)">32</text>
+			</g>
+			<g data-seat="33">
+				<circle cx="695.1" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 690.975 304.8549)">33</text>
+			</g>
+			<g data-seat="34">
+				<circle cx="707" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 702.723 304.8549)">34</text>
+			</g>
+			<g data-seat="35">
+				<circle cx="718.9" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 714.7849 304.8549)">35</text>
+			</g>
+			<g data-seat="36">
+				<circle cx="730.8" cy="302.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 726.5935 304.8553)">36</text>
+			</g>
+			<text transform="matrix(1 0 0 1 296.7901 305.3809)" class="row">4</text>
+			<text transform="matrix(1 0 0 1 744.0101 305.3809)" class="row">4</text>
+		</g>
+		<g data-row="5">
+			<g data-seat="1">
+				<circle cx="314" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 311.8771 319.0428)">1</text>
+			</g>
+			<g data-seat="2">
+				<circle cx="326.1" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 324.0146 319.0428)">2</text>
+			</g>
+			<g data-seat="3">
+				<circle cx="337.9" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 335.7976 319.0428)">3</text>
+			</g>
+			<g data-seat="4">
+				<circle cx="349.8" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 347.5724 319.0428)">4</text>
+			</g>
+			<g data-seat="5">
+				<circle cx="361.6" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 359.5595 319.0428)">5</text>
+			</g>
+			<g data-seat="6">
+				<circle cx="373.5" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 371.3158 319.0428)">6</text>
+			</g>
+			<g data-seat="7">
+				<circle cx="385.3" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 383.2269 319.0428)">7</text>
+			</g>
+			<g data-seat="8">
+				<circle cx="397.1" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 395.0042 319.0428)">8</text>
+			</g>
+			<g data-seat="9">
+				<circle cx="409" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 406.9077 319.0428)">9</text>
+			</g>
+			<g data-seat="10">
+				<circle cx="421" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 416.8053 319.0428)">10</text>
+			</g>
+			<g data-seat="11">
+				<circle cx="432.9" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 428.7592 319.0428)">11</text>
+			</g>
+			<g data-seat="12">
+				<circle cx="444.8" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 440.6736 319.0428)">12</text>
+			</g>
+			<g data-seat="13">
+				<circle cx="456.7" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 452.5573 319.0428)">13</text>
+			</g>
+			<g data-seat="14">
+				<circle cx="468.5" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 464.3165 319.0428)">14</text>
+			</g>
+			<g data-seat="15">
+				<circle cx="480.5" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 476.357 319.0428)">15</text>
+			</g>
+			<g data-seat="16">
+				<circle cx="492.4" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 488.2293 319.0428)">16</text>
+			</g>
+			<g data-seat="17">
+				<circle cx="504.3" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 500.1727 319.0428)">17</text>
+			</g>
+			<g data-seat="18">
+				<circle cx="516.2" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 512.0775 319.0428)">18</text>
+			</g>
+			<g data-seat="19">
+				<circle cx="528.1" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 523.9391 319.0425)">19</text>
+			</g>
+			<g data-seat="20">
+				<circle cx="540" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 535.8686 319.0425)">20</text>
+			</g>
+			<g data-seat="21">
+				<circle cx="552" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 547.8535 319.0425)">21</text>
+			</g>
+			<g data-seat="22">
+				<circle cx="563.9" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 559.7869 319.0424)">22</text>
+			</g>
+			<g data-seat="23">
+				<circle cx="575.9" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 571.7493 319.0425)">23</text>
+			</g>
+			<g data-seat="24">
+				<circle cx="587.8" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 583.5497 319.0425)">24</text>
+			</g>
+			<g data-seat="25">
+				<circle cx="599.7" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 595.6099 319.0428)">25</text>
+			</g>
+			<g data-seat="26">
+				<circle cx="611.7" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 607.5087 319.0428)">26</text>
+			</g>
+			<g data-seat="27">
+				<circle cx="623.5" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 619.4094 319.0424)">27</text>
+			</g>
+			<g data-seat="28">
+				<circle cx="635.5" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 631.3022 319.0424)">28</text>
+			</g>
+			<g data-seat="29">
+				<circle cx="647.3" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 643.1713 319.0424)">29</text>
+			</g>
+			<g data-seat="30">
+				<circle cx="659.3" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 655.1146 319.0424)">30</text>
+			</g>
+			<g data-seat="31">
+				<circle cx="671.2" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 667.1225 319.0424)">31</text>
+			</g>
+			<g data-seat="32">
+				<circle cx="683.2" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 679.064 319.0424)">32</text>
+			</g>
+			<g data-seat="33">
+				<circle cx="695.1" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 690.975 319.0424)">33</text>
+			</g>
+			<g data-seat="34">
+				<circle cx="707" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 702.723 319.0424)">34</text>
+			</g>
+			<g data-seat="35">
+				<circle cx="718.9" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 714.7849 319.0424)">35</text>
+			</g>
+			<g data-seat="36">
+				<circle cx="730.8" cy="316.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 726.5935 319.0428)">36</text>
+			</g>
+			<text transform="matrix(1 0 0 1 296.7901 319.7897)" class="row">5</text>
+			<text transform="matrix(1 0 0 1 744.0101 319.7897)" class="row">5</text>
+		</g>
+	</g>
+	<g data-section="7" data-name-ru="Балкон II-го яруса" data-name-en="Balcony II tier" data-name-ua="Балкон II-го ярусу">
+		<path class="st1" d="M766.6,330.9l18.5-89.3h25.1c146.1-12.5,199.1-123.8,199.1-123.8c11.1-18.5,8.2-32.4,24.8-28.7    c7.7,1.8,8.5,10.8,8.7,28.1v0.3c0,0,0,0.1,0,0.2c0,0,0.1,4.9,0.1,6.6c-9.3,171.8-181.7,202-272.1,206.5L766.6,330.9z"/>
+		<g data-row="1">
+			<g data-seat="1">
+				<cirlce transform="matrix(0.1602 -0.9871 0.9871 0.1602 768.0298 1107.3104)" cx="1034.8" cy="102.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 1032.7606 104.8877)">1</text>
+			</g>
+			<g data-seat="2">
+				<circle cx="1029.5" cy="113.7" r="5.5"/>
+				<text transform="matrix(1 0 0 1 1026.9629 116.672)">2</text>
+			</g>
+			<g data-seat="3">
+				<circle cx="1023.3" cy="124" r="5.5"/>
+				<text transform="matrix(1 0 0 1 1021.5721 127.4231)">3</text>
+			</g>
+			<g data-seat="4">
+				<circle cx="1016.5" cy="134.2" r="5.5"/>
+				<text transform="matrix(1 0 0 1 1013.9628 137.2524)">4</text>
+			</g>
+			<g data-seat="5">
+				<circle cx="1008.2" cy="144.7" r="5.5"/>
+				<text transform="matrix(1 0 0 1 1006.324 148.067)">5</text>
+			</g>
+			<g data-seat="6">
+				<circle cx="1001.3" cy="155.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 999.371 158.1751)">6</text>
+			</g>
+			<g data-seat="7">
+				<circle cx="993.4" cy="165.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 991.8143 168.1985)">7</text>
+			</g>
+			<g data-seat="8">
+				<circle cx="985" cy="175" r="5.5"/>
+				<text transform="matrix(1 0 0 1 982.535 178.0944)">8</text>
+			</g>
+			<g data-seat="9">
+				<circle cx="976.5" cy="184.8" r="5.5"/>
+				<text transform="matrix(1 0 0 1 974.3924 187.8757)">9</text>
+			</g>
+			<g data-seat="10">
+				<circle cx="967.4" cy="193.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 963.2247 196.7397)">10</text>
+			</g>
+			<g data-seat="11">
+				<circle cx="958" cy="203" r="5.5"/>
+				<text transform="matrix(1 0 0 1 953.6424 205.8856)">11</text>
+			</g>
+			<g data-seat="12">
+				<circle cx="946.2" cy="210.8" r="5.5"/>
+				<text transform="matrix(1 0 0 1 941.8611 213.5522)">12</text>
+			</g>
+			<g data-seat="13">
+				<circle cx="934.4" cy="218.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 929.8417 221.4267)">13</text>
+			</g>
+			<g data-seat="14">
+				<circle cx="923.5" cy="225" r="5.5"/>
+				<text transform="matrix(1 0 0 1 918.7108 228.0402)">14</text>
+			</g>
+			<g data-seat="15">
+				<circle cx="912.2" cy="230.8" r="5.5"/>
+				<text transform="matrix(1 0 0 1 907.7049 234.0103)">15</text>
+			</g>
+			<g data-seat="16">
+				<circle cx="900.6" cy="236.4" r="5.5"/>
+				<text transform="matrix(1 0 0 1 896.3182 239.3215)">16</text>
+			</g>
+			<g data-seat="17">
+				<circle cx="889.3" cy="242" r="5.5"/>
+				<text transform="matrix(1 0 0 1 884.824 245.2803)">17</text>
+			</g>
+			<g data-seat="18">
+				<circle cx="877.2" cy="246.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 873.1111 249.8911)">18</text>
+			</g>
+			<g data-seat="19">
+				<circle cx="864.9" cy="250.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 860.2421 253.5224)">19</text>
+			</g>
+			<g data-seat="20">
+				<circle cx="852.9" cy="254.2" r="5.5"/>
+				<text transform="matrix(1 0 0 1 848.5018 257.2767)">20</text>
+			</g>
+			<g data-seat="21">
+				<circle cx="840.8" cy="256.7" r="5.5"/>
+				<text transform="matrix(1 0 0 1 837.0272 259.8318)">21</text>
+			</g>
+			<g data-seat="22">
+				<circle cx="828.9" cy="258.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 824.8202 261.6236)">22</text>
+			</g>
+			<g data-seat="23">
+				<circle cx="816.8" cy="259.2" r="5.5"/>
+				<text transform="matrix(1 0 0 1 812.8612 262.2256)">23</text>
+			</g>
+			<g data-seat="24">
+				<circle cx="804.6" cy="259.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 800.6112 262.8506)">24</text>
+			</g>
+			<text transform="matrix(1 0 0 1 789.958 263.0003)" class="row">1</text>
+		</g>
+		<g data-row="2">
+			<g data-seat="1">
+				<circle cx="1000.7" cy="181.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 998.8026 184.9213)">1</text>
+			</g>
+			<g data-seat="2">
+				<circle cx="992.2" cy="191.7" r="5.5"/>
+				<text transform="matrix(1 0 0 1 990.199 194.7393)">2</text>
+			</g>
+			<g data-seat="3">
+				<circle cx="983.7" cy="200.4" r="5.5"/>
+				<text transform="matrix(1 0 0 1 981.9139 203.3726)">3</text>
+			</g>
+			<g data-seat="4">
+				<circle cx="974.5" cy="209.2" r="5.5"/>
+				<text transform="matrix(1 0 0 1 971.8065 212.0858)">4</text>
+			</g>
+			<g data-seat="5">
+				<circle cx="965.2" cy="217.7" r="5.5"/>
+				<text transform="matrix(1 0 0 1 963.5975 220.8641)">5</text>
+			</g>
+			<g data-seat="6">
+				<circle cx="955.4" cy="225.4" r="5.5"/>
+				<text transform="matrix(1 0 0 1 952.9979 228.5518)">6</text>
+			</g>
+			<g data-seat="7">
+				<circle cx="945.6" cy="232.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 943.5174 236.0305)">7</text>
+			</g>
+			<g data-seat="8">
+				<circle cx="934.7" cy="239.7" r="5.5"/>
+				<text transform="matrix(1 0 0 1 932.7381 242.8913)">8</text>
+			</g>
+			<g data-seat="9">
+				<circle cx="923.5" cy="245.4" r="5.5"/>
+				<text transform="matrix(1 0 0 1 920.8417 248.468)">9</text>
+			</g>
+			<g data-seat="10">
+				<circle cx="912.8" cy="251" r="5.5"/>
+				<text transform="matrix(1 0 0 1 907.8983 254.2641)">10</text>
+			</g>
+			<g data-seat="11">
+				<circle cx="901.5" cy="256.6" r="5.5"/>
+				<text transform="matrix(1 0 0 1 897.4608 259.6981)">11</text>
+			</g>
+			<g data-seat="12">
+				<circle cx="889.4" cy="261.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 885.2361 264.4272)">12</text>
+			</g>
+			<g data-seat="13">
+				<circle cx="877.2" cy="265.5" r="5.5"/>
+				<text transform="matrix(1 0 0 1 872.574 268.5101)">13</text>
+			</g>
+			<g data-seat="14">
+				<circle cx="865.2" cy="268.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 860.3866 271.7067)">14</text>
+			</g>
+			<g data-seat="15">
+				<circle cx="853.1" cy="271.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 848.7088 274.4789)">15</text>
+			</g>
+			<g data-seat="16">
+				<circle cx="841.1" cy="273.2" r="5.5"/>
+				<text transform="matrix(1 0 0 1 836.3338 275.9881)">16</text>
+			</g>
+			<g data-seat="17">
+				<circle cx="829.1" cy="274.9" r="5.5"/>
+				<text transform="matrix(1 0 0 1 824.6737 278.1971)">17</text>
+			</g>
+			<g data-seat="18">
+				<circle cx="816.8" cy="275.3" r="5.5"/>
+				<text transform="matrix(1 0 0 1 812.7108 278.1971)">18</text>
+			</g>
+			<text transform="matrix(1 0 0 1 800.958 279.0003)" class="row">2</text>
+		</g>
+	</g>
+</g>
+</svg>

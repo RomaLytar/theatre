@@ -1,0 +1,136 @@
+.booking {
+  padding: 30px 0;
+}
+
+.booking__title {
+  font-size: 1.8em;
+  text-align: center;
+  margin: 0 0 1em;
+}
+
+.booking__form {
+  margin: 0 0 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.booking__search {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.booking__search-label {
+  display: block;
+  width: 100%;
+}
+
+.booking__search-input {
+  width: calc(100% - 135px);
+  margin: 0 15px 0 0;
+}
+
+.booking__search-btn {
+  min-width: 120px;
+}
+
+.booking__search-type {
+  width: 50%;
+  padding: 0 0 0 30px;
+}
+
+.booking__table-wrap {
+  margin: -1px;
+
+  .table {
+    table-layout: fixed;
+    margin: 0;
+  }
+}
+
+.booking__table {
+  text-align: center;
+  font-size: 0.9em;
+  table-layout: fixed;
+
+  th {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+  }
+
+  td {
+    vertical-align: middle;
+  }
+
+  tbody {
+    td {
+      padding: 0.4rem;
+    }
+  }
+}
+
+.booking__table-number {
+  width: 50px;
+}
+
+.booking__table-order {
+  width: 120px;
+}
+
+.booking__table-fullname {
+  width: 150px;
+}
+
+.booking__table-phone {
+  width: 130px;
+  white-space: nowrap;
+}
+
+.booking__table-event {
+
+}
+
+.booking__table-sector {
+  width: 210px;
+}
+
+.booking__table-row {
+  width: 50px;
+}
+
+.booking__table-place {
+  width: 60px;
+}
+
+.booking__table-price {
+  width: 70px;
+}
+
+.booking__table-cash {
+  width: 120px;
+}
+
+.booking__table-action {
+  width: 180px;
+}
+
+.booking__table-date {
+  width: 150px;
+
+  div {
+    white-space: nowrap;
+  }
+}
+
+.booking__table-total {
+  text-align: right;
+}
+
+.booking__table-btn {
+  display: inline-flex !important;
+
+  svg {
+    margin-right: 10px;
+  }
+}
+

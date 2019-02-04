@@ -1,0 +1,40 @@
+.social {
+  overflow: hidden;
+}
+
+.social__list {
+  margin: 0 -5px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  li {
+    padding: 0 5px;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+  }
+
+  svg {
+    width: 22px;
+    height: 22px;
+    fill: $col-light;
+  }
+}
+
+
+@media #{$s} {
+
+  .social__list {
+
+    li {
+      padding: 0 10px;
+    }
+  }
+}

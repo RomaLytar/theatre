@@ -1,0 +1,287 @@
+/*admin-design styles file*/
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.df {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.fwn {
+  flex-wrap: nowrap;
+}
+
+.fsh {
+  flex-shrink: 0;
+}
+
+.jcst {
+  justify-content: flex-start;
+}
+
+.jcend {
+  justify-content: flex-end;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.w33 {
+  width: 33.333333%;
+  padding: 0 15px;
+}
+
+.mr15 {
+  margin-right: 15px;
+}
+
+.mb15 {
+  margin-bottom: 15px;
+}
+
+.mt15 {
+  margin-top: 15px;
+}
+
+
+.global__page-title {
+  font-size: 30px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.global__table .global__table-short {
+  width: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.global__table .global__table-preview {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+.global__checkbox {
+  position: relative;
+  display: block;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.global__checkbox input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.global__checkbox-text {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.global__checkbox-text::before {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  content: "";
+  width: 50px;
+  height: 26px;
+  border-radius: 13px;
+  background: #CDD1DA;
+  box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+  transition: .2s;
+}
+
+.global__checkbox-text::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  width: 22px;
+  height: 22px;
+  margin-top: -11px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0 2px 5px rgba(0,0,0,.3);
+  transition: .2s;
+}
+
+.global__checkbox input:checked ~ .global__checkbox-text::before {
+  background: #9FD468;
+}
+
+.global__checkbox input:checked ~ .global__checkbox-text::after {
+  left: 26px;
+}
+
+.global__checkbox input:focus ~ .global__checkbox-text::before {
+  box-shadow: inset 0 2px 3px rgba(0,0,0,.2), 0 0 0 3px rgba(255,255,0,.7);
+}
+
+/* Actor page*/
+
+.actor-group__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.actor-group__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  float: none;
+  width: 100%;
+}
+
+.actor-group__item:not(.btn-group) {
+  padding: 5px 10px;
+}
+
+.actor-group__item-name {
+  margin-right: 15px;
+  width: 100%;
+  text-align: left;
+}
+
+.actor-group__item-btns {
+  flex-shrink: 0;
+}
+
+.actor-group__btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actor-photo {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.actor-photo li {
+  width: 50%;
+  padding: 0 15px;
+  margin: 10px 0;
+}
+
+.actor-photo img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.file-load {
+
+}
+
+.file-load__label {
+  display: block;
+}
+
+.file-load__text {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.file-load__list ul {
+  margin: 0 -5px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.file-load__list li {
+  width: 100px;
+  height: 100px;
+  margin: 0 5px 5px 5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.file-load__list button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.file-load__list li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.file-load__list li:hover::before {
+  opacity: 1;
+}
+
+.file-load__list li:hover button {
+  opacity: 1;
+}
+
+.file-load__list img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.file-load__list svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.input-date-perfomance {
+  padding-left: 40px ;
+}
+
+.input-date-perfomance [data-date-remove] {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}

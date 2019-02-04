@@ -1,0 +1,52 @@
+.auth-trigger {
+  margin: 0 0 30px;
+  font-size: 16px;
+  line-height: 1.38;
+}
+
+.auth-trigger__item {
+  margin: 0 0 14px;
+  display: block;
+  cursor: pointer;
+
+  [type="radio"]:checked ~ .auth-trigger__text {
+    &::before {
+      background: #333;
+    }
+  }
+
+  [type="radio"]:focus ~ .auth-trigger__text {
+    &::before {
+      box-shadow: 0px 0px 5px #4d90fe;
+      border-color: #4d90fe;
+    }
+  }
+}
+
+.auth-trigger__text {
+  display: flex;
+  align-items: center;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #333;
+    border-radius: 100%;
+    margin: 0 12px 0 0;
+    transition: 0.3s;
+  }
+}
+
+@media #{$s} {
+  .auth-trigger {
+    margin: 0 0 20px;
+    line-height: 1.5;
+  }
+
+  .auth-trigger__item {
+    margin: 0 0 10px;
+  }
+}

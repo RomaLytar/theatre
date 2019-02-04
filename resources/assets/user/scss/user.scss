@@ -1,0 +1,38 @@
+//global
+  @import "../../global/scss/global/normalize";
+  @import "../../global/scss/variables";
+  @import "../../global/scss/mixins/mediaquery";
+  @import "../../global/scss/mixins/visually-hidden";
+  @import "../../global/scss/mixins/wrap";
+  @import "../../global/scss/mixins/btn";
+  @import "../../global/scss/mixins/border";
+  @import "../../global/_blocks/fonts/fonts";
+  @import "../../global/_blocks/scrollbar/scrollbar";
+
+  @import "../../theatre/_blocks/header/header";
+  @import "../../theatre/_blocks/menu/menu";
+  @import "../../theatre/_blocks/burger/burger";
+  @import "../../theatre/_blocks/calendar-btn/calendar-btn";
+  @import "../../theatre/_blocks/social/social";
+  @import "../../theatre/_blocks/lang/lang";
+
+  @import "mixins/title";
+  @import "global/global-scaffolding";
+
+  @import "../../ticket/components/Common/Preloader/Preloader";
+//_________
+
+@import "_blocks/wrap";
+@import "_blocks/title";
+@import "_blocks/text";
+@import "_blocks/text-link";
+@import "_blocks/link";
+@import "_blocks/btn";
+@import "_blocks/checkbox";
+@import "_blocks/form";
+@import "_blocks/text-authorization";
+@import "_blocks/cross-back";
+@import "_blocks/user";
+@import "_blocks/popup";
+@import "_blocks/select-country";
+@import "_blocks/orders";

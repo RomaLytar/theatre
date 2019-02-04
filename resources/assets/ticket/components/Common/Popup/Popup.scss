@@ -1,0 +1,46 @@
+.popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100000;
+  display: block;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.popup__inner {
+  height: 100%;
+  overflow: auto;
+  padding: 5vw;
+  display: flex;
+}
+
+.popup__wrap {
+  max-width: 320px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  border: 1px solid #ababab;
+  padding: 20px 20px 40px;
+
+  .popup--full & {
+    max-width: 100%;
+  }
+}
+
+.popup__close {
+  position: static;
+  margin: 0 0 20px auto;
+}
+
+.popup__img {
+  margin: 30px;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}

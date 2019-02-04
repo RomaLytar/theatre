@@ -1,0 +1,80 @@
+.calendar__table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 55px;
+}
+
+.calendar__table-row {
+  display: table-row;
+
+  &::before {
+    content: "";
+    display: table-cell;
+    width: 0;
+  }
+
+  &:not(.calendar__table-thead) {
+    &::before {
+      padding-bottom: 14.2857%;
+    }
+
+    .calendar__table-td {
+      border: 1px solid $col-light-grey;
+
+      &:not(.calendar__table-td--empty) {
+        counter-increment: calendar-day-count;
+
+        &::before {
+          @include title-24;
+          letter-spacing: 0;
+          content: counter(calendar-day-count, decimal-leading-zero);
+          display: block;
+          padding: 2px 10px 6px;
+          border-bottom: 1px solid $col-light-grey;
+          background: $white;
+        }
+      }
+    }
+  }
+}
+
+.calendar__table-td {
+  display: table-cell;
+  width: 14.2857%;
+  z-index: 2;
+  position: relative;
+
+  &.hovered {
+    color: $white;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: #000;
+      opacity: 0.45;
+      z-index: -1;
+      pointer-events: none;
+    }
+  }
+}
+
+.calendar__table-thead {
+  .calendar__table-td {
+    color: $col;
+    padding: 0 0 4px;
+    text-align: center;
+    font-size: 12px;
+  }
+}
+
+.calendar__table-content {
+  position: relative;
+  background-size: cover;
+  height: 100%;
+}
+

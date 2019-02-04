@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.38;
+}
+
+body {
+  background: $bg;
+  color: $col;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $font-main;
+  padding-left: $menu-width-desktop;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.visually-hidden {
+  @include visually-hidden;
+}
+
+.body-popup {
+  overflow: hidden;
+}
+
+@media #{$t} {
+  body {
+    padding-left: 0;
+    padding-top: 59px;
+  }
+}
+
+@media #{$s} {
+}

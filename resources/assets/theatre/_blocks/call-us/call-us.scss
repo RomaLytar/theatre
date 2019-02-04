@@ -1,0 +1,34 @@
+.call-us {
+  margin: 40px 0;
+
+  &--big {
+    margin-bottom: 90px;
+  }
+}
+
+.call-us__title {
+  @include title-24;
+  margin: 0 0 20px;
+}
+
+.call-us__descr {
+  max-width: 550px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.44;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: $gold;
+  }
+}
+
+
+@media #{$s} {
+  .call-us__title {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,48 @@
+.text-block {
+  margin: 20px 0 40px;
+  max-width: 685px;
+  font-size: 18px;
+  line-height: 1.44;
+
+  h2 {
+    @include title-24;
+    margin: 0 0 25px;
+    text-align: left;
+  }
+
+  p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.44;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  a {
+    color: $gold;
+  }
+}
+
+
+@media #{$s} {
+  .text-block {
+    margin-left: auto;
+    margin-right: auto;
+
+    p {
+      margin: 0;
+      font-size: 16px;
+      line-height: 28px;
+
+      strong {
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        display: block;
+        margin-top: 40px;
+      }
+    }
+  }
+}

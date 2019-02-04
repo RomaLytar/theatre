@@ -1,0 +1,10 @@
+.wrap {
+  @include wrap($max-width: 1020px);
+}
+
+@media #{$s} {
+  .wrap {
+    padding-top: 22px;
+    padding-bottom: 45px;
+  }
+}

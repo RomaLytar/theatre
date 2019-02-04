@@ -1,0 +1,51 @@
+.user {
+
+}
+
+.user__block-border {
+  padding-bottom: 10px;
+  margin-bottom: 17px;
+  border-bottom: 1px solid #666666;
+
+  p {
+    margin: 0;
+  }
+
+  &:last-child {
+    border: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
+.user__block-text {
+  p {
+    margin: 0 0 10px;
+  }
+}
+
+.user__logout {
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+.user__btns {
+  display: flex;
+  align-items: flex-start;
+}
+
+
+@media #{$s} {
+  .user {
+    text-align: center;
+
+    .title {
+      text-align: center;
+    }
+  }
+
+  .user__btns {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,44 @@
+.cross-back {
+  border: 0;
+  padding: 10px;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 35px;
+  right: 50px;
+  background: none;
+
+  svg {
+    display: block;
+    transition: 0.3s;
+  }
+
+  &:hover,
+  &:focus {
+    svg {
+      fill: $gold;
+    }
+  }
+
+  &:active {
+    svg {
+      fill: $col;
+    }
+  }
+}
+
+@media #{$s} {
+  .cross-back {
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    position: static;
+    display: block;
+    margin: 0 0 5px auto;
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

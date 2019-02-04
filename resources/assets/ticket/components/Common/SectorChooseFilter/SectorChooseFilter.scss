@@ -1,0 +1,27 @@
+.sector-choose-filter {
+
+}
+
+.sector-choose-filter__list {
+  margin: 0;
+  padding: 20px 0 0;
+  list-style: none;
+  border-top: 1px solid $col-light-grey;
+}
+
+.sector-choose-filter__item {
+  margin-bottom: 27px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.sector-choose-filter__prices {
+  display: flex;
+  align-items: center;
+
+  &::before {
+    content: "\20B4";
+  }
+}

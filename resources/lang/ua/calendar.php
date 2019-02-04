@@ -1,0 +1,35 @@
+<?php
+
+return [
+  'event' => 'Подія',
+  'calendar' => 'Календар',
+  'opera' => 'Опера',
+  'ballet' => 'Балет',
+  'concert' => 'Концерт',
+  'children_play' => 'Дитячий спектакль',
+  'touring_on_stage' => 'Гастролі на сцені',
+  'festival_event' => 'Фестивальна подія',
+  'youth_musical_hub' => 'Молодіжний музичний хаб',
+  'date' => 'Дата',
+  'time' => 'Час',
+  'morning' => 'Ранок',
+  'evening' => 'Вечір',
+  'scene' => 'Cцена',
+  'small_scene' => 'Маленька сцена',
+  'big_scene' => 'Велика сцена',
+  'open_scene' => 'Відкрита сцена',
+  'chamber_scene' => 'Камерна сцена',
+  'loft_scene' => 'Loft сцена',
+  'select' => 'Обрати',
+  'search' => 'Пошук',
+  'enter_your_query' => 'Введіть Ваш запит',
+  'go_search' => 'Шукати',
+  'cancel_search_results' => 'Відмінити результати пошуку',
+  'on_the_stages_of_the_opera' => 'На сценах опери',
+  'events_list' => 'Список подій',
+  'events_filter' => 'Фільтри',
+  'search_by_event' => 'Пошук за подією',
+  'genre' => 'Жанр',
+  'filters' => 'Фільтри'
+
+];

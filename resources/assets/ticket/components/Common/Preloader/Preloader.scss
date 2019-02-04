@@ -1,0 +1,16 @@
+.preloader {
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+
+  .cart-global-insert & {
+    top: 46px;
+  }
+}

@@ -1,0 +1,211 @@
+.btn-buy {
+  @include btn($background: none, $border: 1px solid $red, $text-transform: uppercase, $padding: 5px 5px);
+  min-width: 135px;
+  font-size: 14px;
+  line-height: 1.71;
+
+    &:hover {
+      border-color: $red-hover;
+      &::after {
+        background: $red-hover;
+      }
+    }
+
+    &:active {
+      border-color: $red-active;
+      color:$white;
+
+      &::after {
+        background: $red-active;
+      }
+    }
+
+    &::before {
+      background: $red;
+      content: '';
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+  &--big {
+    font-size: 16px;
+    min-width: 170px;
+    line-height: 1.88;
+  }
+
+  &--long {
+    min-width: 230px;
+  }
+}
+
+
+.btn-more {
+  @include btn($color: $gold, $text-transform: initial, $border: 1px solid $gold, $padding: 5px 5px);
+    min-width: 135px;
+    background: none;
+    font-size: 14px;
+    line-height: 1.71;
+
+  &:hover {
+    color: $white;
+
+    &::after {
+      background: $gold;
+    }
+  }
+
+  &:active {
+    color:$white;
+
+    &::after {
+      background: $gold-hover;
+    }
+  }
+
+  &--gold {
+    background: transparent;
+    color: $white;
+
+     &::before {
+      background: $gold;
+      content: '';
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+    &:hover {
+      background: transparent;
+      color: $gold;
+      &::after {
+        background: $white;
+      }
+    }
+
+    &:active {
+      color:$white;
+      &::after {
+        background: $gold-hover;
+      }
+    }
+  }
+
+  &--long {
+    min-width: 230px;
+  }
+
+  &--uppercase {
+    text-transform: uppercase;
+  }
+
+  &--last {
+    margin-bottom: 50px;
+  }
+
+  &--filter {
+    display: none;
+  }
+}
+
+
+
+.btn-more-link {
+  color: $gold;
+  font-size: 14px;
+  line-height: 1.29;
+  align-self: flex-start;
+  margin-top: auto;
+
+  &.hide {
+    display: none;
+  }
+
+
+  &:hover {
+    color: $col;
+  }
+
+  &:active {
+    color: $col-light;
+  }
+
+  &--fz18 {
+    font-size: 18px;
+    line-height: 1.44;
+  }
+
+  &--fz12 {
+    font-size: 12px;
+    line-height: 1.17;
+  }
+}
+
+
+
+@media #{$s} {
+  .btn-buy {
+    min-width: 160px;
+    font-size: 16px;
+    line-height: 2;
+
+    &--big {
+      min-width: 160px;
+      line-height: 2;
+    }
+
+    &--long {
+      // min-width: 230px;
+    }
+  }
+
+  .btn-more {
+    min-width: 160px;
+    font-size: 14px;
+    line-height: 2;
+    text-transform: uppercase;
+
+    &--mob-initial {
+      text-transform: initial;
+    }
+
+    &--gold {
+      font-size: 16px;
+      // background: transparent;
+      // color: $white;
+    }
+
+    &--long {
+      min-width: 200px;
+      line-height: 1.8;
+    }
+
+    &--uppercase {
+      // text-transform: uppercase;
+    }
+
+    &--filter {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .btn-more-link {
+    &--fz18 {
+      font-size: 16px;
+      line-height:1.56;
+    }
+
+    &--fz12 {
+      font-size: 16px;
+      line-height: 1.25;
+    }
+  }
+}
+

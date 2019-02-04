@@ -1,0 +1,53 @@
+.ticket-bottom {
+  display: none;
+}
+
+@media #{$s} {
+  .ticket-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0;
+    border-radius: 0;
+    background: $gold;
+    padding: 8px 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    z-index: 5000;
+  }
+
+  .ticket-bottom__text {
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .ticket-bottom__arrow {
+    transition: 0.3s;
+    display: block;
+
+    svg {
+      display: block;
+    }
+
+    [data-open] & {
+      transform: rotate(180deg);
+    }
+  }
+
+  .ticket-bottom__cart {
+    display: block;
+    width: 22px;
+    height: 22px;
+
+    svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

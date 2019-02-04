@@ -1,0 +1,75 @@
+// .btn-toggle {
+//   display: none;
+// }
+
+// @media #{$s} {
+//   .btn-toggle {
+//     border: none;
+//     border-radius: 0;
+//     background: none;
+//     text-align: left;
+//     text-transform: uppercase;
+//     padding: 0 10px;
+//     display: inline-block;
+//     transition: color 0.3s;
+//     outline: none;
+
+//     &:hover,
+//     &:active,
+//     &:focus {
+//       color: $gold;
+
+//       svg {
+//         fill: $gold;
+//       }
+//     }
+
+//     svg {
+//       transform-origin: 50% 50%;
+//       transition: transform 0.3s, fill 0.3s;
+
+//       [data-active] & {
+//         transform: rotate(180deg);
+//       }
+//     }
+
+//     span {
+//       margin: 0 5px;
+//     }
+//   }
+// }
+
+
+.btn-toggle {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0 5px 0 50px;
+  border: none;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);
+  color: $gold;
+  outline: none;
+
+
+  [data-need-toggle] & {
+    display: block;
+  }
+
+  svg {
+    fill: $gold;
+    transition: .5s;
+
+    [data-texttoggled] & {
+      transform: rotate(180deg);
+    }
+  }
+
+  &:hover {
+    color: $gold-hover;
+
+    svg {
+      fill: $gold-hover;
+    }
+  }
+}

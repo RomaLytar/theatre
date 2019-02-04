@@ -1,0 +1,41 @@
+.info__title {
+  @include title-24;
+}
+
+.info__item {
+  font-size: 16px;
+  line-height: 1.4;
+
+  h2, h3, h4, h5, h6 {
+    @include title($text-transform: initial, $text-align: left);
+    margin: 25px 0 0;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0;
+  }
+}
+
+
+@media #{$s} {
+  .info {
+    margin-bottom: 50px;
+  }
+
+  .info__title {
+    margin-bottom: 40px;
+  }
+
+  .info__item {
+    font-size: 16px;
+    line-height: 1.56;
+    margin-bottom: 20px;
+
+    h2, h3, h4, h5, h6 {
+      font-size: 18px;
+    }
+  }
+
+}

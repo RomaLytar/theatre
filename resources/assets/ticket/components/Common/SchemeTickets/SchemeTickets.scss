@@ -1,0 +1,200 @@
+.scheme-tickets {
+
+}
+
+.scheme-tickets__photo {
+  display: block;
+  height: 136px;
+  overflow: hidden;
+  margin: 0 0 13px;
+}
+
+.scheme-tickets__photo-link {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  position: relative;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+  }
+
+  &:hover {
+    img {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.scheme-tickets__photo-icon {
+  position: absolute;
+  z-index: 10;
+  top: 7px;
+  right: 10px;
+
+  svg {
+    display: block;
+    transition: 0.3s;
+  }
+
+  .scheme-tickets__photo-link:hover & {
+    svg {
+      fill: $gold;
+    }
+  }
+}
+
+.scheme-tickets__title {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.38;
+  font-weight: 400;
+  margin: 0 0 13px;
+}
+
+.scheme-tickets__total {
+  font-weight: 700;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 7px 0 22px;
+}
+
+.scheme-tickets__total-name {
+  flex-grow: 1;
+}
+
+.scheme-tickets__total-price {
+  min-width: 75px;
+  flex-shrink: 0;
+}
+
+.scheme-tickets__list {
+  margin: 13px 0 7px;
+  padding: 20px 0 23px 0;
+  list-style: none;
+  border: 1px solid $col-light-grey;
+  border-left: 0;
+  border-right: 0;
+  height: 144px;
+  overflow: auto;
+  font-size: 14px;
+  line-height: 1.43;
+}
+
+.scheme-tickets__item {
+  margin: 0 8px 20px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.scheme-tickets__item-remove {
+  align-self: flex-start;
+  margin-top: 8px;
+}
+
+.scheme-tickets__place {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.scheme-tickets__section {
+  margin: 0;
+  width: 100%;
+}
+
+.scheme-tickets__row {
+  margin: 0;
+}
+
+.scheme-tickets__seat {
+  margin: 0 0 0 8px;
+}
+
+.scheme-tickets__price {
+  flex-shrink: 0;
+  min-width: 60px;
+  margin: 0 0 0 5px;
+  font-weight: 700;
+}
+
+.scheme-tickets__empty {
+  margin: 0;
+}
+
+@media #{$s} {
+  .scheme-tickets {
+    position: fixed;
+    top: 44px;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    background: #fff;
+    z-index: 1010;
+    padding: 0 10px;
+  }
+
+  .scheme-tickets__photo {
+    height: 100px;
+    margin: 0 -10px;
+  }
+
+  .scheme-tickets__photo-icon {
+    top: 20px;
+    right: 30px;
+  }
+
+  .scheme-tickets__title {
+    line-height: 1.5;
+  }
+
+  .scheme-tickets__total {
+    margin: 20px 0 45px;
+  }
+
+  .scheme-tickets__total-price {
+    min-width: 150px;
+  }
+
+  .scheme-tickets__list {
+    margin: 12px 0 20px;
+    padding: 10px 0;
+    height: 133px;
+    line-height: 1.57;
+  }
+
+  .scheme-tickets__item {
+    margin: 0 20px 24px 0;
+    align-items: center;
+  }
+
+  .scheme-tickets__item-remove {
+    align-self: center;
+    margin-top: 0;
+
+    svg {
+      width: 14px;
+      height: 14px;
+    }
+  }
+
+  .scheme-tickets__price {
+    min-width: 106px;
+    margin: 0 0 0 5px;
+  }
+
+  .scheme-tickets__empty {
+    display: none;
+  }
+}

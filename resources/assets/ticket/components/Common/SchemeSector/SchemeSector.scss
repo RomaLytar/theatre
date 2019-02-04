@@ -1,0 +1,24 @@
+.scheme-sector {
+  max-width: 445px;
+  margin: 0 auto 35px;
+
+  &--small {
+    width: 100%;
+    margin: 0 auto 14px;
+  }
+
+  svg {
+    vertical-align: top;
+  }
+}
+
+@media #{$s} {
+  .scheme-sector {
+    max-width: 375px;
+    margin: 0 auto 20px;
+
+    &--small {
+      margin: 0 auto 14px;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.poster-price {
+  position: absolute;
+  top: 100%;
+  right: -1px;
+  width: 250px;
+  z-index: 10;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid $gray;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.poster-price__table {
+  width: 100%;
+  border: 1px solid $gray;
+  font-size: 0.9em;
+  margin: 0 0 10px;
+
+  td,
+  th {
+    border: 1px solid $gray;
+    padding: 5px;
+  }
+}
+
+.poster-price__color {
+  width: 50px;
+}
+

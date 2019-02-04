@@ -1,0 +1,63 @@
+@mixin title($margin: 0,
+             $padding: 0,
+             $text-align: center,
+             $font-size: 18px,
+             $font-weight: 700,
+             $line-height: 1.44,
+             $font-family: $font-second,
+             $color: $col,
+             $text-transform: uppercase) {
+  font: $font-weight $font-size $font-family;
+  line-height: $line-height;
+  margin: $margin;
+  text-align: $text-align;
+  padding: $padding;
+  color: $color;
+  letter-spacing: 0.025em;
+  text-transform: $text-transform;
+
+  span {
+    font-size: 14px;
+    line-height: 1;
+    margin-top: 15px;
+    display: block;
+    font-family: $font-main;
+    text-transform: initial;
+  }
+}
+
+@mixin title-section {
+  @include title($margin: 0 0 1.25em, $font-size: 24px, $font-weight: 400,  $line-height: 1, $padding:3.33em 0 0, $font-family: $font-main);
+}
+
+@mixin title-section-low {
+  @include title($margin: 0 0 2em, $font-size: 20px, $font-weight: 400,  $line-height: 1, $padding: 2.25em 0 0);
+}
+
+@mixin title-article {
+  @include title($margin: 0, $font-size: 22px, $font-weight: 700,  $line-height: 1.1, $text-transform: initial, $text-align: left, $padding: 1.59em 0 1.14em);
+}
+
+@mixin title-promo {
+  @include title($margin: 0, $font-size: 34px, $color: $gold, $padding: 40px 0, $font-family: $font-second);
+}
+
+// New title
+
+@mixin title-12 {
+  @include title($margin: 0, $font-size: 12px, $line-height: 1.33);
+}
+
+@mixin title-14 {
+  @include title($margin: 0, $font-size: 14px, $line-height: 1.29);
+}
+
+@mixin title-24 {
+  @include title($margin: 0, $font-size: 24px, $line-height: 1.42);
+}
+
+@mixin title-34 {
+  @include title($margin: 0, $font-size: 34px, $color: $gold, $line-height: 1.41);
+  letter-spacing: 0.05em;
+}
+

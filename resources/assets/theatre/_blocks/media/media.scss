@@ -1,0 +1,30 @@
+.media {
+  margin: 40px 0;
+}
+
+.media__title {
+  @include title-24;
+  margin: 0 0 30px;
+}
+
+.media__list {
+  margin-bottom: -20px;
+
+  &>div:not(:nth-child(-n+6)) {
+    display: none;
+  }
+}
+
+@media #{$s} {
+  .media {
+    margin: 40px 0 50px;
+  }
+
+  .media__title {
+    margin: 0 0 40px;
+  }
+
+  .media__list {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,53 @@
+.payment {
+
+}
+
+.payment__title {
+  font-size: 1.4em;
+  margin: 0 0 0.6em;
+  text-align: center;
+}
+
+.payment__banking {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.payment__text {
+  font-weight: 400;
+  width: 100px;
+}
+
+.payment__cost {
+  width: 70px;
+  font-size: 1.3em;
+}
+
+.payment__form {
+  width: 100%;
+}
+
+.payment__label {
+  display: block;
+}
+
+.payment__form-text {
+  display: block;
+  font-size: 0.9em;
+  margin: 0 0 0.8em;
+}
+
+.payment__btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 0 0 10px;
+  border-bottom: 1px solid $gray;
+
+  .btn {
+    width: calc(50% - 5px);
+  }
+}

@@ -1,0 +1,23 @@
+.form-vacancy {
+  margin-bottom: 50px;
+}
+
+.form-vacancy__inner {
+  max-width: 516px;
+  width: 100%;
+  padding: 0 100px;
+  margin: 0 auto;
+}
+
+.form-vacancy__title {
+  @include title-14;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+
+@media #{$s} {
+  .form-vacancy__inner {
+    padding: 0 30px;
+  }
+}

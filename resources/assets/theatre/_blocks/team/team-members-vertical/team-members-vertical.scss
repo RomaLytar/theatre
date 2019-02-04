@@ -1,0 +1,16 @@
+.team-members-vertical {
+  margin-bottom: 30px;
+}
+
+.team-members-vertical__title {
+  @include title-24;
+  margin: 0 0 30px;
+}
+
+@media #{$s} {
+  .team-members-vertical {
+    margin-bottom: 0;
+  }
+}
+
+

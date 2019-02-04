@@ -1,0 +1,88 @@
+.concierge {
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0 15px 20px;
+  position: relative;
+}
+
+.concierge__current-time {
+  padding: 20px  0 0;
+  margin: 0 0 20px 0;
+  p {
+    margin: 0;
+
+  }
+}
+
+.concierge__title {
+  margin: 0 0 20px;
+  font-size: 22px;
+}
+
+
+.concierge__container {
+  flex-grow: 1px;
+  // padding: 0 0 90px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.concierge__event {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  left: 0;
+  top: 0;
+  background: $bg;
+  overflow: hidden;
+  // margin: 0 0 90px;
+
+  &.visible {
+    height: auto;
+  }
+}
+
+.concierge__btns {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  // position: absolute;
+  // left: 0;
+  // right: 0;
+  // bottom: 15px;
+
+
+
+  a {
+    margin: 0 20px;
+    font-size: 0;
+    width: 50px;
+    display: none;
+
+    svg {
+      display: block;
+      width: 100%;
+
+    }
+
+    &:hover {
+      svg {
+        fill: $col-light;
+      }
+    }
+
+    &:active {
+      svg {
+        fill: $col-light-grey;
+      }
+    }
+
+    &.visible {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.print {
+  margin: 0 auto;
+  display: none;
+}
+
+.print__ticket {
+  page-break-inside: avoid;
+  page-break-after: always;
+  position: relative;
+}
+
+.print__el {
+  position: absolute;
+  // white-space: pre;
+
+  &--barcode {
+    white-space: normal;
+  }
+}
+
+// @media (min-width: 1000px) {
+@media print {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  // #print {
+    .popup,
+    .wrap,
+    .kasir-header {
+      display: none !important;
+    }
+
+    .print {
+      display: block;
+    }
+
+    @page {
+      margin: 0;
+    }
+  // }
+}

@@ -1,0 +1,25 @@
+.cross {
+  border: 0;
+  padding: 0;
+  background: none;
+  display: block;
+
+  svg {
+    display: block;
+    transition: 0.3s;
+  }
+
+  &:hover,
+  &:focus {
+    svg {
+      fill: $col;
+    }
+  }
+
+  &:active {
+    svg {
+      opacity: 0.5;
+      fill: $col;
+    }
+  }
+}

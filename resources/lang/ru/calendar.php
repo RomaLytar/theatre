@@ -1,0 +1,35 @@
+<?php
+
+return [
+  'event' => 'Событие',
+  'calendar' => 'Календарь',
+  'opera' => 'Опера',
+  'ballet' => 'Балет',
+  'concert' => 'Концерт',
+  'children_play' => 'Детский спектакль',
+  'touring_on_stage' => 'Гастроли на сцене',
+  'festival_event' => 'Фестивальное событие',
+  'youth_musical_hub' => 'Молодежный музыкальный хаб',
+  'date' => 'Дата',
+  'time' => 'Время',
+  'morning' => 'Утро',
+  'evening' => 'Вечер',
+  'scene' => 'Сцена',
+  'small_scene' => 'Маленькая сцена',
+  'big_scene' => 'Большая сцена',
+  'open_scene' => 'Открытая сцена',
+  'chamber_scene' => 'Камерная сцена',
+  'loft_scene' => 'Loft сцена',
+  'select' => 'Выбрать',
+  'search' => 'Поиск',
+  'enter_your_query' => 'Введите Ваш запрос',
+  'go_search' => 'Искать',
+  'cancel_search_results' => 'Отменть результаты поиска',
+  'on_the_stages_of_the_opera' => 'На сценах оперы',
+  'events_list' => 'Список событий',
+  'events_filter' => 'Фильтры',
+  'search_by_event' => 'Поиск по событию',
+  'genre' => 'Жанр',
+  'filters' => 'Фильтры'
+
+];

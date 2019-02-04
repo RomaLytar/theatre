@@ -1,0 +1,77 @@
+.promo-calendar {
+  position: relative;
+}
+
+.promo-calendar__top {
+  text-align: right;
+}
+
+.promo-calendar__btn {
+  text-align: center;
+  margin-left: auto;
+  padding: 20px 0 10px;
+}
+
+.promo-calendar__title {
+  @include title-34();
+  padding: 0 0 50px;
+}
+
+.promo-calendar__img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  img {
+    width: 100%;
+    display: block;
+
+    .object-fit & {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+@media #{$s} {
+  .promo-calendar {
+    margin-bottom: 115px;
+  }
+
+  .promo-calendar__btn {
+    text-align: right;
+    padding: 10px;
+  }
+
+  .promo-calendar__title {
+    font-size: 24px;
+    line-height: 1.42;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    padding: 40px 0 0;
+  }
+
+  .promo-calendar__abonement-btn {
+    color: $red;
+    background-color: #111;
+    line-height: 2.4;
+    font-size: 12px;
+    padding: 0;
+    min-width: 155px;
+
+    &:hover {
+      color: $white;
+    }
+
+    &::before {
+      background-color: transparent;
+    }
+  }
+}

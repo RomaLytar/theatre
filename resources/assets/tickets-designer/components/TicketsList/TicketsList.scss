@@ -1,0 +1,59 @@
+.tickets-list {
+
+}
+
+.tickets-list__title {
+  display: flex;
+  align-items: center;
+}
+
+.tickets-list__btn {
+  margin-left: auto;
+}
+
+.tickets-list__table {
+  text-align: center;
+  table-layout: fixed;
+
+  td,
+  th {
+    vertical-align: middle !important;
+  }
+
+  td {
+    span {
+      display: block;
+    }
+  }
+}
+
+.tickets-list__table-id {
+  width: 60px;
+}
+
+.tickets-list__table-name {
+
+}
+
+.tickets-list__table-width {
+  width: 120px;
+}
+
+.tickets-list__table-height {
+  width: 120px;
+}
+
+.tickets-list__table-bg {
+  padding: 0 !important;
+  width: 200px;
+  background: no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.tickets-list__table-use {
+  width: 200px;
+}
+
+.tickets-list__table-action {
+  width: 200px;
+}

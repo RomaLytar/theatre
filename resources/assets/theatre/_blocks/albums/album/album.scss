@@ -1,0 +1,54 @@
+.album {
+  margin: 0 0 15px;
+}
+
+.album__link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.album__img {
+  margin: 0 0 15px;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.album__title {
+  @include title;
+  font-weight: 400;
+  text-align: left;
+}
+
+.album__type {
+  font-size: 12px;
+  line-height: 1.33;
+  color: $gold;
+  margin: 0;
+}
+
+@media #{$s} {
+  .album {
+    margin-bottom: 30px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .album__img {
+    margin-bottom: 10px;
+  }
+
+  .album__title {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .album__type {
+    text-align: center;
+  }
+}

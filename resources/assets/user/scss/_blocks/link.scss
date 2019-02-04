@@ -1,0 +1,13 @@
+.link {
+  outline: none;
+  transition: 0.3s;
+
+  &:hover,
+  &:focus {
+    color: $gold;
+  }
+
+  &:active {
+    text-decoration: none;
+  }
+}

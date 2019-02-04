@@ -1,0 +1,17 @@
+.wrap {
+  @include wrap;
+  padding-top: 45px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.wrap-user {
+  @include wrap($max-width: 475px, $padding: 0);
+}
+
+@media #{$s} {
+  .wrap {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

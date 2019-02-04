@@ -1,0 +1,55 @@
+.lang {
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1.33;
+}
+
+.lang__list {
+  margin: 0 -3px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    margin: 0 3px;
+  }
+
+  a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.lang__list-active {
+  a {
+    text-decoration: underline;
+  }
+}
+
+@media #{$t} {
+  .lang {
+    font-size: 14px;
+    line-height: 1.43;
+    margin: 0 0 20px;
+    // display: none;
+  }
+
+  .lang__list {
+    display: flex;
+    justify-content: center;
+
+    li {
+      margin: 0 4px;
+    }
+  }
+}
+
+@media #{$s} {
+  .lang {
+    margin: 0;
+  }
+}

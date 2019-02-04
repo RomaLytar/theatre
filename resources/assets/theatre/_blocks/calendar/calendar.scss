@@ -1,0 +1,21 @@
+.calendar {
+  overflow: hidden;
+  counter-reset: calendar-day-count;
+  min-height: 500px;
+
+  [data-event-bg] {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    transition: background 0.3s;
+  }
+}
+
+.calendar__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+

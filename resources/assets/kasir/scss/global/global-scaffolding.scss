@@ -1,0 +1,34 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.38;
+}
+
+body {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.visually-hidden {
+  @include visually-hidden;
+}
+
+.body-popup {
+  overflow: hidden;
+}
+
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.wrap-full {
+  padding: 0 10px;
+}

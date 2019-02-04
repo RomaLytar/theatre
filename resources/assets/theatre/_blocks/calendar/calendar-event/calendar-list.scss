@@ -1,0 +1,94 @@
+.calendar-list {
+  margin: 35px 0 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid $col-light-grey;
+
+  &:empty {
+    border: none;
+  }
+}
+
+.calendar-list__month {
+  &:last-child {
+    margin-bottom: 50px;
+  }
+}
+
+.calendar-list__month-name {
+  margin: 20px 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 200%;
+}
+
+.calendar-list__days {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.calendar-list__day {
+  border-bottom: 1px solid $col-light-grey;
+}
+
+.calendar-list__day-info {
+  padding: 8px 0;
+  font-size: 14px;
+  line-height: 1.29;
+  margin: 0;
+
+  span {
+    display: inline-block;
+    vertical-align: baseline;
+  }
+}
+
+.calendar-list__day-number {
+  @include title-24;
+}
+
+.calendar-list__events {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: no-repeat 50% 50%;
+  background-size: cover;
+  transition: background-image 0.3s;
+  position: relative;
+
+  li {
+    position: relative;
+    z-index: 2;
+  }
+
+  &:hover {
+    color: $white;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: #000;
+      opacity: 0.45;
+      z-index: 1;
+    }
+  }
+}
+
+
+@media #{$s} {
+  .calendar-list__day-number {
+    font-weight: 400;
+  }
+
+  .calendar-list__events {
+  }
+
+  .calendar-list__day-info {
+    padding: 12px 0;
+  }
+}

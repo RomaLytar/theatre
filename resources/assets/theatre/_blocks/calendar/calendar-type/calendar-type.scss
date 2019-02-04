@@ -1,0 +1,155 @@
+.calendar-type {
+  margin: 0 0 40px;
+  padding: 11px 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $gold;
+}
+
+.calendar-type__item {
+  color: $white;
+  margin: 0 2%;
+
+  &--filter {
+    display: none;
+  }
+}
+
+.calendar-type__link {
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+  font-size: 12px;
+  position: relative;
+  cursor: default;
+  transition: color 0.3s;
+
+  &[data-active] {
+    &::after {
+      content:"";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: $white
+    }
+  }
+
+  &:hover:not([data-active]){
+    color: $col-light;
+    cursor: pointer;
+
+    svg {
+      fill: $col-light;
+    }
+  }
+
+  &--search {
+    padding: 0 0 0 20px;
+
+    svg {
+      position: absolute;
+      bottom: 2px;
+      left: 0;
+      fill: $white;
+      transition: fill 0.3s;
+    }
+  }
+}
+
+.calendar-type__filter-btn {
+  border-radius: 0;
+  width: 100%;
+  background: none;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  outline: none;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: $gold;
+
+    svg {
+      fill: $gold;
+    }
+  }
+
+  svg {
+    transform-origin: 50% 50%;
+    transition: transform 0.3s, fill 0.3s;
+
+    [data-active] & {
+      transform: rotate(180deg);
+    }
+  }
+
+  span {
+    margin: 0 5px;
+  }
+}
+
+
+@media #{$s} {
+  .calendar-type {
+    background: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+  }
+
+  .calendar-type__link {
+    &--gold {
+      text-decoration: underline;
+      svg {
+        fill: $gold;
+      }
+    }
+  }
+
+
+  .calendar-type__item {
+    color: $gold;
+    margin: 0 2%;
+
+    &--mob-hide {
+      display: none;
+    }
+
+    &--filter {
+      display: block;
+
+      span {
+        margin-right: 15px;
+      }
+
+      svg {
+        fill: $gold;
+      }
+    }
+
+    &[data-active="true"] {
+      display: none;
+    }
+  }
+
+  .calendar-type__filter-btn {
+    text-decoration: underline;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: color 0.3s;
+    border: none;
+    line-height: 1.33;
+
+    svg {
+      width: 18px;
+      height: 18px;
+    }
+  }
+}

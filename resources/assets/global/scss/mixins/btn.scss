@@ -1,0 +1,55 @@
+@mixin btn($font-size: 12px,
+           $line-height: 1.33,
+           $font-weight: 400,
+           $background: none,
+           $color: $white,
+           $border: none,
+           $padding: 5px 10px,
+           $width: 130px,
+           $text-transform: none,
+           $text-decoration: none) {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: $font-size;
+  line-height: $line-height;
+  font-weight: $font-weight;
+  text-decoration: $text-decoration;
+  background: $background;
+  color: $color;
+  border: $border;
+  border-radius: 0;
+  text-align: center;
+  padding: $padding;
+  min-width: $width;
+  text-transform: $text-transform;
+  transition: all 0.3s;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    width: 0;
+  }
+
+  &:hover::after {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
+  &:active::after {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}

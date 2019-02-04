@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.38;
+
+  @media #{$s} {
+    line-height: 1.5;
+  }
+}
+
+body {
+  background: $bg;
+  color: $col;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $font-main;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.cart-global-insert {
+  padding-top: $cart-global-height;
+
+  @media #{$s} {
+    padding-top: $cart-global-height-mobile;
+  }
+}
+
+body {
+  @media #{$s} {
+    padding-top: $cart-global-height-mobile;
+  }
+}
+
+.visually-hidden {
+  @include visually-hidden;
+}
+
+.body-popup {
+  overflow: hidden;
+}

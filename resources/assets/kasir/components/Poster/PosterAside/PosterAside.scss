@@ -1,0 +1,38 @@
+.poster-aside {
+  .btn {
+    margin: 0 0 10px;
+  }
+}
+
+.poster-aside__calendar {
+  &.vdp-datepicker__calendar {
+    font-size: 0.8em !important;
+    width: 100% !important;
+    border-color: $brand !important;
+
+    .cell {
+      height: 30px !important;
+      line-height: 30px !important;
+
+      &.highlighted {
+
+      }
+
+      &.selected {
+        background: $brand !important;
+        color: #fff !important;
+      }
+
+      &:not(.blank):not(.disabled).day:hover,
+      &:not(.blank):not(.disabled).month:hover,
+      &:not(.blank):not(.disabled).year:hover {
+        border-color: $brand !important;
+      }
+    }
+
+    header {
+      line-height: 30px !important;
+    }
+  }
+}
+

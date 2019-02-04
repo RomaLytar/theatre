@@ -1,0 +1,10 @@
+.albums {
+  margin-top: 50px;
+}
+
+
+@media #{$s} {
+  .albums {
+    margin: 40px 0 50px;
+  }
+}
